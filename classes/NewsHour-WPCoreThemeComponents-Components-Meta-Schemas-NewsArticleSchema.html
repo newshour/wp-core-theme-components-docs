@@ -1,0 +1,2237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Core Theme Components</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="../">
+    <link rel="icon" href="images/favicon.ico"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+            <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/template.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+                <script src="https://cdn.jsdelivr.net/npm/fuse.js@3.4.6"></script>
+        <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+        <script src="js/search.js"></script>
+        <script defer src="js/searchIndex.js"></script>
+    </head>
+<body id="top">
+    <header class="phpdocumentor-header phpdocumentor-section">
+    <h1 class="phpdocumentor-title"><a href="" class="phpdocumentor-title__link">Core Theme Components</a></h1>
+    <input class="phpdocumentor-header__menu-button" type="checkbox" id="menu-button" name="menu-button" />
+    <label class="phpdocumentor-header__menu-icon" for="menu-button">
+        <i class="fas fa-bars"></i>
+    </label>
+    <section data-search-form class="phpdocumentor-search">
+    <label>
+        <span class="visually-hidden">Search for</span>
+        <svg class="phpdocumentor-search__icon" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="7.5" cy="7.5" r="6.5" stroke="currentColor" stroke-width="2"/>
+            <line x1="12.4892" y1="12.2727" x2="19.1559" y2="18.9393" stroke="currentColor" stroke-width="3"/>
+        </svg>
+        <input type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading .." disabled />
+    </label>
+</section>
+
+    <nav class="phpdocumentor-topnav">
+    <ul class="phpdocumentor-topnav__menu">
+        </ul>
+</nav>
+</header>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <input class="phpdocumentor-sidebar__menu-button" type="checkbox" id="sidebar-button" name="sidebar-button" />
+<label class="phpdocumentor-sidebar__menu-icon" for="sidebar-button">
+    Menu
+</label>
+<aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                                <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/newshour.html"><abbr title="\NewsHour">NewsHour</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="namespaces/newshour-wpcorethemecomponents.html"><abbr title="\NewsHour\WPCoreThemeComponents">WPCoreThemeComponents</abbr></a></li>
+                                    </ul>
+                        </section>
+
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="indices/files.html">Files</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/newshour.html">NewsHour</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/newshour-wpcorethemecomponents.html">WPCoreThemeComponents</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/newshour-wpcorethemecomponents-components.html">Components</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/newshour-wpcorethemecomponents-components-meta.html">Meta</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/newshour-wpcorethemecomponents-components-meta-schemas.html">Schemas</a></li>
+    </ul>
+
+    <article class="phpdocumentor-element -class">
+        <h2 class="phpdocumentor-content__title">
+    NewsArticleSchema
+
+        <span class="phpdocumentor-element__extends">
+        extends <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html"><abbr title="\NewsHour\WPCoreThemeComponents\Components\Meta\Schemas\AbstractSchema">AbstractSchema</abbr></a>
+    </span>
+    
+    
+    
+    </h2>
+
+        <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/NewsArticleSchema.php"><a href="files/src-components-meta-schemas-newsarticleschema.html"><abbr title="src/Components/Meta/Schemas/NewsArticleSchema.php">NewsArticleSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">14</span>
+</aside>
+
+            <p class="phpdocumentor-summary">Generates schema.org data for NewsArticle types.</p>
+
+    <section class="phpdocumentor-description"></section>
+
+
+
+
+
+
+
+
+<h3 id="toc">
+    Table of Contents
+    <a href="#toc" class="headerlink"><i class="fas fa-link"></i></a>
+</h3>
+
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-NewsArticleSchema.html#constant_SCHEMA_TYPE">SCHEMA_TYPE</a>
+    <span>
+        &nbsp;= &#039;NewsArticle&#039;                    </span>
+</dt>
+<dd></dd>
+
+                <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#property_asHtml">$asHtml</a>
+    <span>
+                &nbsp;: bool            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-NewsArticleSchema.html#property_dateline">$dateline</a>
+    <span>
+                &nbsp;: string            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-NewsArticleSchema.html#property_headline">$headline</a>
+    <span>
+                &nbsp;: string            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#property_images">$images</a>
+    <span>
+                &nbsp;: array&lt;string|int, mixed&gt;            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#property_parameterBag">$parameterBag</a>
+    <span>
+                &nbsp;: <abbr title="\Symfony\Component\HttpFoundation\ParameterBag">ParameterBag</abbr>            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#property_sameAs">$sameAs</a>
+    <span>
+                &nbsp;: array&lt;string|int, mixed&gt;            </span>
+</dt>
+<dd></dd>
+
+                <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method___toString">__toString()</a>
+    <span>
+                        &nbsp;: string    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_addAuthor">addAuthor()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd>Add a PersonSchema object (author).</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_addIdentifier">addIdentifier()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd>Add an identifier.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_addImage">addImage()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd>Add an image URL.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_addSameAs">addSameAs()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd>Add a &quot;sameAs&quot; URL string or array of URL strings.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_asHtml">asHtml()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd>Set true to return output as HTML.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_attachSchema">attachSchema()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd>Attach a child schema.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-NewsArticleSchema.html#method_createFromCorePost">createFromCorePost()</a>
+    <span>
+                        &nbsp;: <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-NewsArticleSchema.html"><abbr title="\NewsHour\WPCoreThemeComponents\Components\Meta\Schemas\NewsArticleSchema">NewsArticleSchema</abbr></a>    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_getAsHtml">getAsHtml()</a>
+    <span>
+                        &nbsp;: bool    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_getAuthors">getAuthors()</a>
+    <span>
+                        &nbsp;: <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-SchemaCollection.html"><abbr title="\NewsHour\WPCoreThemeComponents\Components\Meta\Schemas\SchemaCollection">SchemaCollection</abbr></a>    </span>
+</dt>
+<dd>Returns a collection of PersonSchema objects (authors).</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-NewsArticleSchema.html#method_getDateline">getDateline()</a>
+    <span>
+                        &nbsp;: string    </span>
+</dt>
+<dd>Get the value of dateline</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_getDateModified">getDateModified()</a>
+    <span>
+                        &nbsp;: <abbr title="\Carbon\Carbon">Carbon</abbr>|null    </span>
+</dt>
+<dd>Get the &quot;modified on&quot; datetime.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_getDatePublished">getDatePublished()</a>
+    <span>
+                        &nbsp;: <abbr title="\Carbon\Carbon">Carbon</abbr>|null    </span>
+</dt>
+<dd>Get the &quot;published on&quot; datetime.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_getDescription">getDescription()</a>
+    <span>
+                        &nbsp;: string    </span>
+</dt>
+<dd>Get the value of description.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-NewsArticleSchema.html#method_getHeadline">getHeadline()</a>
+    <span>
+                        &nbsp;: string    </span>
+</dt>
+<dd>Get the value of headline</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_getImages">getImages()</a>
+    <span>
+                        &nbsp;: array&lt;string|int, mixed&gt;    </span>
+</dt>
+<dd>Returns a set of image URLs.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_getInLanguage">getInLanguage()</a>
+    <span>
+                        &nbsp;: string    </span>
+</dt>
+<dd>Get the value of inLanguage (e.g. en_US, etc).</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_getOrganization">getOrganization()</a>
+    <span>
+                        &nbsp;: <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-OrganizationSchema.html"><abbr title="\NewsHour\WPCoreThemeComponents\Components\Meta\Schemas\OrganizationSchema">OrganizationSchema</abbr></a>    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_getSameAs">getSameAs()</a>
+    <span>
+                        &nbsp;: array&lt;string|int, mixed&gt;    </span>
+</dt>
+<dd>Returns a set of &quot;sameAs&quot; values.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_getThumbnail">getThumbnail()</a>
+    <span>
+                        &nbsp;: string    </span>
+</dt>
+<dd>Returns the thumbnail URL.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_getUrl">getUrl()</a>
+    <span>
+                        &nbsp;: string    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_isEmpty">isEmpty()</a>
+    <span>
+                        &nbsp;: bool    </span>
+</dt>
+<dd>Checks if the object is considered &quot;empty&quot;. Objects are considered &quot;empty&quot; when they have no set
+schema.org properties set, excluding identifiers (e.g. keys beginnging with &#039;@&#039;). Objects with
+only identifiers set will be considered &quot;empty&quot;.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_render">render()</a>
+    <span>
+                        &nbsp;: string    </span>
+</dt>
+<dd>Serializes to JSON.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-NewsArticleSchema.html#method_setDateline">setDateline()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd>Set the value of dateline</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_setDateModified">setDateModified()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd>Set the &quot;published on&quot; datetime.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_setDatePublished">setDatePublished()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd>Set the &quot;published on&quot; datetime.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_setDescription">setDescription()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd>Set the value of description.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-NewsArticleSchema.html#method_setHeadline">setHeadline()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd>Set the value of headline</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_setInLanguage">setInLanguage()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_setOrganization">setOrganization()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_setPotentialAction">setPotentialAction()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd>Set a &quot;potentialAction&quot; schema.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_setPublisher">setPublisher()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd>Set the value of publisher.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_setThumbnail">setThumbnail()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd>Set the thumbnail URL.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_setUrl">setUrl()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-NewsArticleSchema.html#method_toArray">toArray()</a>
+    <span>
+                        &nbsp;: array&lt;string|int, mixed&gt;    </span>
+</dt>
+<dd>Returns the object&#039;s data into key value pairs based on the underlying
+schema.org entity structure.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_parameters">parameters()</a>
+    <span>
+                        &nbsp;: <abbr title="\Symfony\Component\HttpFoundation\ParameterBag">ParameterBag</abbr>    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_imageToSchema">imageToSchema()</a>
+    <span>
+                        &nbsp;: <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-ImageSchema.html"><abbr title="\NewsHour\WPCoreThemeComponents\Components\Meta\Schemas\ImageSchema">ImageSchema</abbr></a>|null    </span>
+</dt>
+<dd>Converts a Timber/Image object or string into an ImageSchema object.</dd>
+
+        </dl>
+
+
+
+        
+    <section class="phpdocumentor-constants">
+        <h3 class="phpdocumentor-elements__header" id="constants">
+            Constants
+            <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-NewsArticleSchema.html#constants" class="headerlink"><i class="fas fa-link"></i></a>
+        </h3>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_SCHEMA_TYPE">
+        SCHEMA_TYPE
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-NewsArticleSchema.html#constant_SCHEMA_TYPE" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/NewsArticleSchema.php"><a href="files/src-components-meta-schemas-newsarticleschema.html"><abbr title="src/Components/Meta/Schemas/NewsArticleSchema.php">NewsArticleSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">16</span>
+</aside>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">SCHEMA_TYPE</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;NewsArticle&#039;</span>
+</code>
+
+
+    
+    
+
+</article>
+            </section>
+
+        
+    <section class="phpdocumentor-properties">
+        <h3 class="phpdocumentor-elements__header" id="properties">
+            Properties
+            <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-NewsArticleSchema.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+        </h3>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_asHtml">
+        $asHtml
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#property_asHtml" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/AbstractSchema.php"><a href="files/src-components-meta-schemas-abstractschema.html"><abbr title="src/Components/Meta/Schemas/AbstractSchema.php">AbstractSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">30</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type">bool</span>
+    <span class="phpdocumentor-signature__name">$asHtml</span>
+     = <span class="phpdocumentor-signature__default-value">false</span></code>
+
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_dateline">
+        $dateline
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-NewsArticleSchema.html#property_dateline" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/NewsArticleSchema.php"><a href="files/src-components-meta-schemas-newsarticleschema.html"><abbr title="src/Components/Meta/Schemas/NewsArticleSchema.php">NewsArticleSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">19</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">$dateline</span>
+     = <span class="phpdocumentor-signature__default-value">&#039;&#039;</span></code>
+
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_headline">
+        $headline
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-NewsArticleSchema.html#property_headline" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/NewsArticleSchema.php"><a href="files/src-components-meta-schemas-newsarticleschema.html"><abbr title="src/Components/Meta/Schemas/NewsArticleSchema.php">NewsArticleSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">18</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">$headline</span>
+     = <span class="phpdocumentor-signature__default-value">&#039;&#039;</span></code>
+
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_images">
+        $images
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#property_images" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/AbstractSchema.php"><a href="files/src-components-meta-schemas-abstractschema.html"><abbr title="src/Components/Meta/Schemas/AbstractSchema.php">AbstractSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">28</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
+    <span class="phpdocumentor-signature__name">$images</span>
+     = <span class="phpdocumentor-signature__default-value">[]</span></code>
+
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_parameterBag">
+        $parameterBag
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#property_parameterBag" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/AbstractSchema.php"><a href="files/src-components-meta-schemas-abstractschema.html"><abbr title="src/Components/Meta/Schemas/AbstractSchema.php">AbstractSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">31</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type"><abbr title="\Symfony\Component\HttpFoundation\ParameterBag">ParameterBag</abbr></span>
+    <span class="phpdocumentor-signature__name">$parameterBag</span>
+    </code>
+
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_sameAs">
+        $sameAs
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#property_sameAs" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/AbstractSchema.php"><a href="files/src-components-meta-schemas-abstractschema.html"><abbr title="src/Components/Meta/Schemas/AbstractSchema.php">AbstractSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">29</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
+    <span class="phpdocumentor-signature__name">$sameAs</span>
+     = <span class="phpdocumentor-signature__default-value">[]</span></code>
+
+    
+    
+
+</article>
+            </section>
+
+            <section class="phpdocumentor-methods">
+        <h3 class="phpdocumentor-elements__header" id="methods">
+            Methods
+            <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-NewsArticleSchema.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+        </h3>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method___toString">
+        __toString()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method___toString" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/AbstractSchema.php"><a href="files/src-components-meta-schemas-abstractschema.html"><abbr title="src/Components/Meta/Schemas/AbstractSchema.php">AbstractSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">36</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">__toString</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">string</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_addAuthor">
+        addAuthor()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_addAuthor" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/AbstractSchema.php"><a href="files/src-components-meta-schemas-abstractschema.html"><abbr title="src/Components/Meta/Schemas/AbstractSchema.php">AbstractSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">332</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Add a PersonSchema object (author).</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">addAuthor</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-PersonSchema.html"><abbr title="\NewsHour\WPCoreThemeComponents\Components\Meta\Schemas\PersonSchema">PersonSchema</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$person</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$person</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-PersonSchema.html"><abbr title="\NewsHour\WPCoreThemeComponents\Components\Meta\Schemas\PersonSchema">PersonSchema</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_addIdentifier">
+        addIdentifier()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_addIdentifier" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/AbstractSchema.php"><a href="files/src-components-meta-schemas-abstractschema.html"><abbr title="src/Components/Meta/Schemas/AbstractSchema.php">AbstractSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">136</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Add an identifier.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">addIdentifier</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$key</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$value</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$key</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$value</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_addImage">
+        addImage()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_addImage" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/AbstractSchema.php"><a href="files/src-components-meta-schemas-abstractschema.html"><abbr title="src/Components/Meta/Schemas/AbstractSchema.php">AbstractSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">380</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Add an image URL.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">addImage</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-ImageSchema.html"><abbr title="\NewsHour\WPCoreThemeComponents\Components\Meta\Schemas\ImageSchema">ImageSchema</abbr></a>|<abbr title="\Timber\Image">Image</abbr>|string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$image</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$image</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-ImageSchema.html"><abbr title="\NewsHour\WPCoreThemeComponents\Components\Meta\Schemas\ImageSchema">ImageSchema</abbr></a>|<abbr title="\Timber\Image">Image</abbr>|string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_addSameAs">
+        addSameAs()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_addSameAs" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/AbstractSchema.php"><a href="files/src-components-meta-schemas-abstractschema.html"><abbr title="src/Components/Meta/Schemas/AbstractSchema.php">AbstractSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">248</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Add a &quot;sameAs&quot; URL string or array of URL strings.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">addSameAs</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;|string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$url</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$url</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;|string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">see</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                    <span class="phpdocumentor-tag-link"><a href="https://schema.org/sameAs"><abbr title="https://schema.org/sameAs">https://schema.org/sameAs</abbr></a></span>
+                                        
+                                                 <section class="phpdocumentor-description"></section>
+
+                                    </dd>
+                        </dl>
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_asHtml">
+        asHtml()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_asHtml" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/AbstractSchema.php"><a href="files/src-components-meta-schemas-abstractschema.html"><abbr title="src/Components/Meta/Schemas/AbstractSchema.php">AbstractSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">483</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Set true to return output as HTML.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">asHtml</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$asHtml</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">true</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$asHtml</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">true</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Optional, default is true.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_attachSchema">
+        attachSchema()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_attachSchema" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/AbstractSchema.php"><a href="files/src-components-meta-schemas-abstractschema.html"><abbr title="src/Components/Meta/Schemas/AbstractSchema.php">AbstractSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">118</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Attach a child schema.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">attachSchema</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$key</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-Schema.html"><abbr title="\NewsHour\WPCoreThemeComponents\Components\Meta\Schemas\Schema">Schema</abbr></a>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$schema</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$key</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$schema</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-Schema.html"><abbr title="\NewsHour\WPCoreThemeComponents\Components\Meta\Schemas\Schema">Schema</abbr></a>|null</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_createFromCorePost">
+        createFromCorePost()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-NewsArticleSchema.html#method_createFromCorePost" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/NewsArticleSchema.php"><a href="files/src-components-meta-schemas-newsarticleschema.html"><abbr title="src/Components/Meta/Schemas/NewsArticleSchema.php">NewsArticleSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">25</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">createFromCorePost</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/NewsHour-WPCoreThemeComponents-Models-CorePost.html"><abbr title="\NewsHour\WPCoreThemeComponents\Models\CorePost">CorePost</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$post</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-NewsArticleSchema.html"><abbr title="\NewsHour\WPCoreThemeComponents\Components\Meta\Schemas\NewsArticleSchema">NewsArticleSchema</abbr></a></span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$post</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/NewsHour-WPCoreThemeComponents-Models-CorePost.html"><abbr title="\NewsHour\WPCoreThemeComponents\Models\CorePost">CorePost</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type"><a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-NewsArticleSchema.html"><abbr title="\NewsHour\WPCoreThemeComponents\Components\Meta\Schemas\NewsArticleSchema">NewsArticleSchema</abbr></a></span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getAsHtml">
+        getAsHtml()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_getAsHtml" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/AbstractSchema.php"><a href="files/src-components-meta-schemas-abstractschema.html"><abbr title="src/Components/Meta/Schemas/AbstractSchema.php">AbstractSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">472</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getAsHtml</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">bool</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getAuthors">
+        getAuthors()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_getAuthors" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/AbstractSchema.php"><a href="files/src-components-meta-schemas-abstractschema.html"><abbr title="src/Components/Meta/Schemas/AbstractSchema.php">AbstractSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">321</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Returns a collection of PersonSchema objects (authors).</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getAuthors</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-SchemaCollection.html"><abbr title="\NewsHour\WPCoreThemeComponents\Components\Meta\Schemas\SchemaCollection">SchemaCollection</abbr></a></span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type"><a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-SchemaCollection.html"><abbr title="\NewsHour\WPCoreThemeComponents\Components\Meta\Schemas\SchemaCollection">SchemaCollection</abbr></a></span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getDateline">
+        getDateline()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-NewsArticleSchema.html#method_getDateline" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/NewsArticleSchema.php"><a href="files/src-components-meta-schemas-newsarticleschema.html"><abbr title="src/Components/Meta/Schemas/NewsArticleSchema.php">NewsArticleSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">102</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Get the value of dateline</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getDateline</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">string</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getDateModified">
+        getDateModified()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_getDateModified" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/AbstractSchema.php"><a href="files/src-components-meta-schemas-abstractschema.html"><abbr title="src/Components/Meta/Schemas/AbstractSchema.php">AbstractSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">179</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Get the &quot;modified on&quot; datetime.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getDateModified</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Carbon\Carbon">Carbon</abbr>|null</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type"><abbr title="\Carbon\Carbon">Carbon</abbr>|null</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getDatePublished">
+        getDatePublished()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_getDatePublished" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/AbstractSchema.php"><a href="files/src-components-meta-schemas-abstractschema.html"><abbr title="src/Components/Meta/Schemas/AbstractSchema.php">AbstractSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">148</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Get the &quot;published on&quot; datetime.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getDatePublished</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Carbon\Carbon">Carbon</abbr>|null</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type"><abbr title="\Carbon\Carbon">Carbon</abbr>|null</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getDescription">
+        getDescription()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_getDescription" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/AbstractSchema.php"><a href="files/src-components-meta-schemas-abstractschema.html"><abbr title="src/Components/Meta/Schemas/AbstractSchema.php">AbstractSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">294</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Get the value of description.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getDescription</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">string</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getHeadline">
+        getHeadline()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-NewsArticleSchema.html#method_getHeadline" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/NewsArticleSchema.php"><a href="files/src-components-meta-schemas-newsarticleschema.html"><abbr title="src/Components/Meta/Schemas/NewsArticleSchema.php">NewsArticleSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">76</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Get the value of headline</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getHeadline</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">string</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getImages">
+        getImages()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_getImages" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/AbstractSchema.php"><a href="files/src-components-meta-schemas-abstractschema.html"><abbr title="src/Components/Meta/Schemas/AbstractSchema.php">AbstractSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">369</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Returns a set of image URLs.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getImages</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getInLanguage">
+        getInLanguage()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_getInLanguage" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/AbstractSchema.php"><a href="files/src-components-meta-schemas-abstractschema.html"><abbr title="src/Components/Meta/Schemas/AbstractSchema.php">AbstractSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">210</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Get the value of inLanguage (e.g. en_US, etc).</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getInLanguage</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">string</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getOrganization">
+        getOrganization()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_getOrganization" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/AbstractSchema.php"><a href="files/src-components-meta-schemas-abstractschema.html"><abbr title="src/Components/Meta/Schemas/AbstractSchema.php">AbstractSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">453</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getOrganization</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-OrganizationSchema.html"><abbr title="\NewsHour\WPCoreThemeComponents\Components\Meta\Schemas\OrganizationSchema">OrganizationSchema</abbr></a></span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type"><a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-OrganizationSchema.html"><abbr title="\NewsHour\WPCoreThemeComponents\Components\Meta\Schemas\OrganizationSchema">OrganizationSchema</abbr></a></span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getSameAs">
+        getSameAs()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_getSameAs" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/AbstractSchema.php"><a href="files/src-components-meta-schemas-abstractschema.html"><abbr title="src/Components/Meta/Schemas/AbstractSchema.php">AbstractSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">236</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Returns a set of &quot;sameAs&quot; values.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getSameAs</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">see</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                    <span class="phpdocumentor-tag-link"><a href="https://schema.org/sameAs"><abbr title="https://schema.org/sameAs">https://schema.org/sameAs</abbr></a></span>
+                                        
+                                                 <section class="phpdocumentor-description"></section>
+
+                                    </dd>
+                        </dl>
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getThumbnail">
+        getThumbnail()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_getThumbnail" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/AbstractSchema.php"><a href="files/src-components-meta-schemas-abstractschema.html"><abbr title="src/Components/Meta/Schemas/AbstractSchema.php">AbstractSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">412</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Returns the thumbnail URL.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getThumbnail</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">string</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getUrl">
+        getUrl()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_getUrl" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/AbstractSchema.php"><a href="files/src-components-meta-schemas-abstractschema.html"><abbr title="src/Components/Meta/Schemas/AbstractSchema.php">AbstractSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">344</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getUrl</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">string</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_isEmpty">
+        isEmpty()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_isEmpty" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/AbstractSchema.php"><a href="files/src-components-meta-schemas-abstractschema.html"><abbr title="src/Components/Meta/Schemas/AbstractSchema.php">AbstractSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">94</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Checks if the object is considered &quot;empty&quot;. Objects are considered &quot;empty&quot; when they have no set
+schema.org properties set, excluding identifiers (e.g. keys beginnging with &#039;@&#039;). Objects with
+only identifiers set will be considered &quot;empty&quot;.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">isEmpty</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">see</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                    <span class="phpdocumentor-tag-link"><a href="https://schema.org/identifier"><abbr title="https://schema.org/identifier">https://schema.org/identifier</abbr></a></span>
+                                        
+                                                 <section class="phpdocumentor-description"></section>
+
+                                    </dd>
+                        </dl>
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">bool</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_render">
+        render()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_render" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/AbstractSchema.php"><a href="files/src-components-meta-schemas-abstractschema.html"><abbr title="src/Components/Meta/Schemas/AbstractSchema.php">AbstractSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">50</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Serializes to JSON.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">render</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">string</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setDateline">
+        setDateline()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-NewsArticleSchema.html#method_setDateline" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/NewsArticleSchema.php"><a href="files/src-components-meta-schemas-newsarticleschema.html"><abbr title="src/Components/Meta/Schemas/NewsArticleSchema.php">NewsArticleSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">113</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Set the value of dateline</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setDateline</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dateline</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$dateline</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setDateModified">
+        setDateModified()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_setDateModified" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/AbstractSchema.php"><a href="files/src-components-meta-schemas-abstractschema.html"><abbr title="src/Components/Meta/Schemas/AbstractSchema.php">AbstractSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">191</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Set the &quot;published on&quot; datetime.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setDateModified</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Carbon\Carbon">Carbon</abbr>|string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dateModified</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$timezone</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$dateModified</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Carbon\Carbon">Carbon</abbr>|string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$timezone</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Optional</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setDatePublished">
+        setDatePublished()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_setDatePublished" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/AbstractSchema.php"><a href="files/src-components-meta-schemas-abstractschema.html"><abbr title="src/Components/Meta/Schemas/AbstractSchema.php">AbstractSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">160</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Set the &quot;published on&quot; datetime.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setDatePublished</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Carbon\Carbon">Carbon</abbr>|string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$datePublished</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$timezone</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$datePublished</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Carbon\Carbon">Carbon</abbr>|string|null</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$timezone</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Optional</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setDescription">
+        setDescription()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_setDescription" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/AbstractSchema.php"><a href="files/src-components-meta-schemas-abstractschema.html"><abbr title="src/Components/Meta/Schemas/AbstractSchema.php">AbstractSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">305</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Set the value of description.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setDescription</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$description</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$description</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string|null</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setHeadline">
+        setHeadline()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-NewsArticleSchema.html#method_setHeadline" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/NewsArticleSchema.php"><a href="files/src-components-meta-schemas-newsarticleschema.html"><abbr title="src/Components/Meta/Schemas/NewsArticleSchema.php">NewsArticleSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">86</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Set the value of headline</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setHeadline</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$headline</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$headline</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setInLanguage">
+        setInLanguage()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_setInLanguage" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/AbstractSchema.php"><a href="files/src-components-meta-schemas-abstractschema.html"><abbr title="src/Components/Meta/Schemas/AbstractSchema.php">AbstractSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">219</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setInLanguage</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$inLanguage</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$inLanguage</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string|null</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setOrganization">
+        setOrganization()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_setOrganization" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/AbstractSchema.php"><a href="files/src-components-meta-schemas-abstractschema.html"><abbr title="src/Components/Meta/Schemas/AbstractSchema.php">AbstractSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">462</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setOrganization</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-OrganizationSchema.html"><abbr title="\NewsHour\WPCoreThemeComponents\Components\Meta\Schemas\OrganizationSchema">OrganizationSchema</abbr></a>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$organization</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$organization</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-OrganizationSchema.html"><abbr title="\NewsHour\WPCoreThemeComponents\Components\Meta\Schemas\OrganizationSchema">OrganizationSchema</abbr></a>|null</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setPotentialAction">
+        setPotentialAction()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_setPotentialAction" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/AbstractSchema.php"><a href="files/src-components-meta-schemas-abstractschema.html"><abbr title="src/Components/Meta/Schemas/AbstractSchema.php">AbstractSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">443</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Set a &quot;potentialAction&quot; schema.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setPotentialAction</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-Schema.html"><abbr title="\NewsHour\WPCoreThemeComponents\Components\Meta\Schemas\Schema">Schema</abbr></a>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$potentialAction</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$potentialAction</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-Schema.html"><abbr title="\NewsHour\WPCoreThemeComponents\Components\Meta\Schemas\Schema">Schema</abbr></a>|null</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">see</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                    <span class="phpdocumentor-tag-link"><a href="https://schema.org/potentialAction"><abbr title="https://schema.org/potentialAction">https://schema.org/potentialAction</abbr></a></span>
+                                        
+                                                 <section class="phpdocumentor-description"></section>
+
+                                    </dd>
+                        </dl>
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setPublisher">
+        setPublisher()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_setPublisher" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/AbstractSchema.php"><a href="files/src-components-meta-schemas-abstractschema.html"><abbr title="src/Components/Meta/Schemas/AbstractSchema.php">AbstractSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">276</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Set the value of publisher.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setPublisher</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-OrganizationSchema.html"><abbr title="\NewsHour\WPCoreThemeComponents\Components\Meta\Schemas\OrganizationSchema">OrganizationSchema</abbr></a>|string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$publisher</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$publisher</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-OrganizationSchema.html"><abbr title="\NewsHour\WPCoreThemeComponents\Components\Meta\Schemas\OrganizationSchema">OrganizationSchema</abbr></a>|string|null</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setThumbnail">
+        setThumbnail()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_setThumbnail" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/AbstractSchema.php"><a href="files/src-components-meta-schemas-abstractschema.html"><abbr title="src/Components/Meta/Schemas/AbstractSchema.php">AbstractSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">423</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Set the thumbnail URL.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setThumbnail</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$thumbnail</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$thumbnail</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setUrl">
+        setUrl()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_setUrl" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/AbstractSchema.php"><a href="files/src-components-meta-schemas-abstractschema.html"><abbr title="src/Components/Meta/Schemas/AbstractSchema.php">AbstractSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">353</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setUrl</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$url</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$url</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string|null</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_toArray">
+        toArray()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-NewsArticleSchema.html#method_toArray" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/NewsArticleSchema.php"><a href="files/src-components-meta-schemas-newsarticleschema.html"><abbr title="src/Components/Meta/Schemas/NewsArticleSchema.php">NewsArticleSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">57</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Returns the object&#039;s data into key value pairs based on the underlying
+schema.org entity structure.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">toArray</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_parameters">
+        parameters()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_parameters" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/AbstractSchema.php"><a href="files/src-components-meta-schemas-abstractschema.html"><abbr title="src/Components/Meta/Schemas/AbstractSchema.php">AbstractSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">493</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+                <span class="phpdocumentor-signature__name">parameters</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Symfony\Component\HttpFoundation\ParameterBag">ParameterBag</abbr></span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type"><abbr title="\Symfony\Component\HttpFoundation\ParameterBag">ParameterBag</abbr></span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_imageToSchema">
+        imageToSchema()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-AbstractSchema.html#method_imageToSchema" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Components/Meta/Schemas/AbstractSchema.php"><a href="files/src-components-meta-schemas-abstractschema.html"><abbr title="src/Components/Meta/Schemas/AbstractSchema.php">AbstractSchema.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">508</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Converts a Timber/Image object or string into an ImageSchema object.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                <span class="phpdocumentor-signature__name">imageToSchema</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Timber\Image">Image</abbr>|string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$image</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-ImageSchema.html"><abbr title="\NewsHour\WPCoreThemeComponents\Components\Meta\Schemas\ImageSchema">ImageSchema</abbr></a>|null</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$image</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Timber\Image">Image</abbr>|string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type"><a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-ImageSchema.html"><abbr title="\NewsHour\WPCoreThemeComponents\Components\Meta\Schemas\ImageSchema">ImageSchema</abbr></a>|null</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+            </section>
+
+    </article>
+                <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
+    <section class="phpdocumentor-search-results__dialog">
+        <header class="phpdocumentor-search-results__header">
+            <h2 class="phpdocumentor-search-results__title">Search results</h2>
+            <button class="phpdocumentor-search-results__close"><i class="fas fa-times"></i></button>
+        </header>
+        <section class="phpdocumentor-search-results__body">
+            <ul class="phpdocumentor-search-results__entries"></ul>
+        </section>
+    </section>
+</section>
+            </div>
+        </div>
+        <a href="classes/NewsHour-WPCoreThemeComponents-Components-Meta-Schemas-NewsArticleSchema.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <script>
+        cssVars({});
+    </script>
+</body>
+</html>
