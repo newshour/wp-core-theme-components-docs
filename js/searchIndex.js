@@ -698,13 +698,28 @@ Search.appendIndex(
         },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Annotations\\LoginRequired",
             "name": "LoginRequired",
-            "summary": "Provides\u0020an\u0020annotation\u0020for\u0020controller\u0020methods\u0020to\u0020check\u0020for\u0020logged\u0020in\u0020users.",
+            "summary": "Provides\u0020an\u0020annotation\u0020for\u0020controller\u0020methods\u0020to\u0020check\u0020for\u0020logged\u0020in\u0020users.\u0020If\u0020a\u0020capability\u0020is\npassed\u0020to\u0020the\u0020constructor,\u0020the\u0020annotation\u0020will\u0020also\u0020check\u0020if\u0020the\u0020user\u0020has\u0020the\u0020capability.",
             "url": "classes/NewsHour-WPCoreThemeComponents-Annotations-LoginRequired.html"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Annotations\\LoginRequired\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Annotations-LoginRequired.html#method___construct"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Annotations\\LoginRequired\u003A\u003AgetCapability\u0028\u0029",
+            "name": "getCapability",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Annotations-LoginRequired.html#method_getCapability"
         },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Annotations\\LoginRequired\u003A\u003AvalidateUser\u0028\u0029",
             "name": "validateUser",
-            "summary": "Calls\u0020the\u0020Wordpress\u0020function\u0020is_user_logged_in\u0028\u0029.",
+            "summary": "Calls\u0020the\u0020Wordpress\u0020function\u0020is_user_logged_in\u0028\u0029.\u0020If\u0020a\u0020capability\u0020is\u0020set,\u0020also\nchecks\u0020the\u0020current\u0020user\u0027s\u0020capability.",
             "url": "classes/NewsHour-WPCoreThemeComponents-Annotations-LoginRequired.html#method_validateUser"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Annotations\\LoginRequired\u003A\u003A\u0024capability",
+            "name": "capability",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Annotations-LoginRequired.html#property_capability"
         },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Components\\Component",
             "name": "Component",
