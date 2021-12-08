@@ -90,14 +90,34 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Containers/ContainerFactory.php"><a href="files/src-containers-containerfactory.html"><abbr title="src/Containers/ContainerFactory.php">ContainerFactory.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">22</span>
+    <span class="phpdocumentor-element-found-in__line">35</span>
 </aside>
 
-            <p class="phpdocumentor-summary">Retrieves the container object.</p>
+            <p class="phpdocumentor-summary">Retrieves the configured container object. In production, the container
+is cached and stored at the path defined by kernel.cache_dir.</p>
 
-    <section class="phpdocumentor-description"></section>
+    <section class="phpdocumentor-description"><p>ContainerFactory::dumpAutoload should be set as a composer script.</p>
+<pre class="prettyprint"><code class="prettyprint">&quot;post-autoload-dump&quot;: [
+  &quot;NewsHour\\WPCoreThemeComponents\\Containers\\ContainerFactory::dumpAutoload&quot;
+]
+</code></pre>
+</section>
 
 
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">final</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"></section>
+
+                                    </dd>
+                        </dl>
 
 
 
@@ -110,13 +130,6 @@
 </h3>
 
 <dl class="phpdocumentor-table-of-contents">
-            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
-    <a href="classes/NewsHour-WPCoreThemeComponents-Containers-ContainerFactory.html#constant_CACHE_NAMESPACE">CACHE_NAMESPACE</a>
-    <span>
-        &nbsp;= &#039;container&#039;                    </span>
-</dt>
-<dd></dd>
-
                 <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a href="classes/NewsHour-WPCoreThemeComponents-Containers-ContainerFactory.html#property_instance">$instance</a>
     <span>
@@ -143,37 +156,6 @@
 
 
         
-    <section class="phpdocumentor-constants">
-        <h3 class="phpdocumentor-elements__header" id="constants">
-            Constants
-            <a href="classes/NewsHour-WPCoreThemeComponents-Containers-ContainerFactory.html#constants" class="headerlink"><i class="fas fa-link"></i></a>
-        </h3>
-                    <article class="phpdocumentor-element -constant -public ">
-    <h4 class="phpdocumentor-element__name" id="constant_CACHE_NAMESPACE">
-        CACHE_NAMESPACE
-        <a href="classes/NewsHour-WPCoreThemeComponents-Containers-ContainerFactory.html#constant_CACHE_NAMESPACE" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Containers/ContainerFactory.php"><a href="files/src-containers-containerfactory.html"><abbr title="src/Containers/ContainerFactory.php">ContainerFactory.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">24</span>
-</aside>
-
-    
-    <code class="phpdocumentor-signature phpdocumentor-code ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-    <span class="phpdocumentor-signature__type">mixed</span>
-    <span class="phpdocumentor-signature__name">CACHE_NAMESPACE</span>
-    = <span class="phpdocumentor-signature__default-value">&#039;container&#039;</span>
-</code>
-
-
-    
-    
-
-</article>
-            </section>
 
         
     <section class="phpdocumentor-properties">
@@ -197,7 +179,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Containers/ContainerFactory.php"><a href="files/src-containers-containerfactory.html"><abbr title="src/Containers/ContainerFactory.php">ContainerFactory.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">29</span>
+    <span class="phpdocumentor-element-found-in__line">40</span>
 </aside>
 
     
@@ -232,7 +214,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Containers/ContainerFactory.php"><a href="files/src-containers-containerfactory.html"><abbr title="src/Containers/ContainerFactory.php">ContainerFactory.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">67</span>
+    <span class="phpdocumentor-element-found-in__line">141</span>
 </aside>
 
         <p class="phpdocumentor-summary">Clears the cached container.</p>
@@ -277,7 +259,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Containers/ContainerFactory.php"><a href="files/src-containers-containerfactory.html"><abbr title="src/Containers/ContainerFactory.php">ContainerFactory.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">34</span>
+    <span class="phpdocumentor-element-found-in__line">45</span>
 </aside>
 
     

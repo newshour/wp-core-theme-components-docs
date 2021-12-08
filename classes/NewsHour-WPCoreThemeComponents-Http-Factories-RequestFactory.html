@@ -91,7 +91,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Http/Factories/RequestFactory.php"><a href="files/src-http-factories-requestfactory.html"><abbr title="src/Http/Factories/RequestFactory.php">RequestFactory.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">17</span>
+    <span class="phpdocumentor-element-found-in__line">18</span>
 </aside>
 
             <p class="phpdocumentor-summary">Retrieves the Request object. The Request object is a singleton created
@@ -130,7 +130,14 @@ by using PHP&#039;s super globals.</p>
                 <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a href="classes/NewsHour-WPCoreThemeComponents-Http-Factories-RequestFactory.html#property_instance">$instance</a>
     <span>
-                &nbsp;: mixed            </span>
+                &nbsp;: <abbr title="\Symfony\Component\HttpFoundation\Request">Request</abbr>            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Http-Factories-RequestFactory.html#property_stack">$stack</a>
+    <span>
+                &nbsp;: <abbr title="\Symfony\Component\HttpFoundation\RequestStack">RequestStack</abbr>            </span>
 </dt>
 <dd></dd>
 
@@ -138,6 +145,13 @@ by using PHP&#039;s super globals.</p>
     <a href="classes/NewsHour-WPCoreThemeComponents-Http-Factories-RequestFactory.html#method_get">get()</a>
     <span>
                         &nbsp;: <abbr title="\Symfony\Component\HttpFoundation\Request">Request</abbr>    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Http-Factories-RequestFactory.html#method_getStack">getStack()</a>
+    <span>
+                        &nbsp;: <abbr title="\Symfony\Component\HttpFoundation\RequestStack">RequestStack</abbr>    </span>
 </dt>
 <dd></dd>
 
@@ -169,17 +183,49 @@ by using PHP&#039;s super globals.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Http/Factories/RequestFactory.php"><a href="files/src-http-factories-requestfactory.html"><abbr title="src/Http/Factories/RequestFactory.php">RequestFactory.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">19</span>
+    <span class="phpdocumentor-element-found-in__line">23</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
-    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type"><abbr title="\Symfony\Component\HttpFoundation\Request">Request</abbr></span>
     <span class="phpdocumentor-signature__name">$instance</span>
     </code>
 
+        <section class="phpdocumentor-description"></section>
+
     
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_stack">
+        $stack
+        <a href="classes/NewsHour-WPCoreThemeComponents-Http-Factories-RequestFactory.html#property_stack" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Http/Factories/RequestFactory.php"><a href="files/src-http-factories-requestfactory.html"><abbr title="src/Http/Factories/RequestFactory.php">RequestFactory.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">28</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type"><abbr title="\Symfony\Component\HttpFoundation\RequestStack">RequestStack</abbr></span>
+    <span class="phpdocumentor-signature__name">$stack</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
     
 
 </article>
@@ -203,7 +249,7 @@ by using PHP&#039;s super globals.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Http/Factories/RequestFactory.php"><a href="files/src-http-factories-requestfactory.html"><abbr title="src/Http/Factories/RequestFactory.php">RequestFactory.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">24</span>
+    <span class="phpdocumentor-element-found-in__line">33</span>
 </aside>
 
     
@@ -218,6 +264,39 @@ by using PHP&#039;s super globals.</p>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type"><abbr title="\Symfony\Component\HttpFoundation\Request">Request</abbr></span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getStack">
+        getStack()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Http-Factories-RequestFactory.html#method_getStack" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Http/Factories/RequestFactory.php"><a href="files/src-http-factories-requestfactory.html"><abbr title="src/Http/Factories/RequestFactory.php">RequestFactory.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">45</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">getStack</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Symfony\Component\HttpFoundation\RequestStack">RequestStack</abbr></span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type"><abbr title="\Symfony\Component\HttpFoundation\RequestStack">RequestStack</abbr></span>
             &mdash;
             <section class="phpdocumentor-description"></section>
 

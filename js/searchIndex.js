@@ -156,6 +156,16 @@ Search.appendIndex(
             "summary": "The\u0020parent\u0020Controller\u0020class.",
             "url": "classes/NewsHour-WPCoreThemeComponents-Controllers-Controller.html"
         },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Controllers\\Controller\u003A\u003AsetContainer\u0028\u0029",
+            "name": "setContainer",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Controllers-Controller.html#method_setContainer"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Controllers\\Controller\u003A\u003AgetSubscribedServices\u0028\u0029",
+            "name": "getSubscribedServices",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Controllers-Controller.html#method_getSubscribedServices"
+        },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Controllers\\Controller\u003A\u003Arender\u0028\u0029",
             "name": "render",
             "summary": "Renders\u0020the\u0020view\u0020as\u0020HTML\u0020and\u0020returns\u0020a\u0020Response\u0020object.\u0020Timber\u0020template\u0020caching\u0020parameters\ncan\u0020be\u0020passed\u0020via\u0020the\u0020\u0024kwargs\u0020argument.",
@@ -181,6 +191,11 @@ Search.appendIndex(
             "summary": "Retrieves\u0020the\u0020headers\u0020set\u0020by\u0020Wordpress\u0020so\u0020that\u0020they\u0020can\u0020be\u0020into\u0020our\nResponse\u0020object.",
             "url": "classes/NewsHour-WPCoreThemeComponents-Controllers-Controller.html#method_getQueuedHeaders"
         },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Controllers\\Controller\u003A\u003A\u0024container",
+            "name": "container",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Controllers-Controller.html#property_container"
+        },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Controllers\\FrontController",
             "name": "FrontController",
             "summary": "Loads\u0020controller\u0020classes\u0020from\u0020the\u0020Wordpress\u0020\u0022template\u0022\u0020files.\u0020e.g.\u0020single.php,\nsingle\u002Dsome\u002Dpost\u002Dtype.php,\u0020page.php,\u0020etc.",
@@ -201,10 +216,20 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/NewsHour-WPCoreThemeComponents-Http-Factories-RequestFactory.html#method_get"
         },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Http\\Factories\\RequestFactory\u003A\u003AgetStack\u0028\u0029",
+            "name": "getStack",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Http-Factories-RequestFactory.html#method_getStack"
+        },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Http\\Factories\\RequestFactory\u003A\u003A\u0024instance",
             "name": "instance",
             "summary": "",
             "url": "classes/NewsHour-WPCoreThemeComponents-Http-Factories-RequestFactory.html#property_instance"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Http\\Factories\\RequestFactory\u003A\u003A\u0024stack",
+            "name": "stack",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Http-Factories-RequestFactory.html#property_stack"
         },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Managers\\Manager",
             "name": "Manager",
@@ -253,7 +278,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Managers\\ManagerService\u003A\u003Aadd\u0028\u0029",
             "name": "add",
-            "summary": "Add\u0020a\u0020WordpressManager\u0020to\u0020the\u0020pipeline.",
+            "summary": "Add\u0020a\u0020WordpressManager\u0020to\u0020the\u0020pipeline.\u0020If\u0020the\u0020manager\u0020implements\u0020ContainerAwareInterface,\nthe\u0020container\u0020will\u0020also\u0020be\u0020set.",
             "url": "classes/NewsHour-WPCoreThemeComponents-Managers-ManagerService.html#method_add"
         },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Managers\\ManagerService\u003A\u003AaddAll\u0028\u0029",
@@ -1823,7 +1848,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Containers\\ContainerFactory",
             "name": "ContainerFactory",
-            "summary": "Retrieves\u0020the\u0020container\u0020object.",
+            "summary": "Retrieves\u0020the\u0020configured\u0020container\u0020object.\u0020In\u0020production,\u0020the\u0020container\nis\u0020cached\u0020and\u0020stored\u0020at\u0020the\u0020path\u0020defined\u0020by\u0020kernel.cache_dir.",
             "url": "classes/NewsHour-WPCoreThemeComponents-Containers-ContainerFactory.html"
         },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Containers\\ContainerFactory\u003A\u003Aget\u0028\u0029",
@@ -1835,11 +1860,6 @@ Search.appendIndex(
             "name": "dumpAutoload",
             "summary": "Clears\u0020the\u0020cached\u0020container.",
             "url": "classes/NewsHour-WPCoreThemeComponents-Containers-ContainerFactory.html#method_dumpAutoload"
-        },                {
-            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Containers\\ContainerFactory\u003A\u003ACACHE_NAMESPACE",
-            "name": "CACHE_NAMESPACE",
-            "summary": "",
-            "url": "classes/NewsHour-WPCoreThemeComponents-Containers-ContainerFactory.html#constant_CACHE_NAMESPACE"
         },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Containers\\ContainerFactory\u003A\u003A\u0024instance",
             "name": "instance",
@@ -1901,6 +1921,86 @@ Search.appendIndex(
             "summary": "Validates\u0020the\u0020submitted\u0020form.",
             "url": "classes/NewsHour-WPCoreThemeComponents-Forms-Form.html#method_isValid"
         },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Commands\\AbstractCommand",
+            "name": "AbstractCommand",
+            "summary": "Parent\u0020Command\u0020class.",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Commands-AbstractCommand.html"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Commands\\AbstractCommand\u003A\u003A__toString\u0028\u0029",
+            "name": "__toString",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Commands-AbstractCommand.html#method___toString"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Commands\\AbstractCommand\u003A\u003AgetContainer\u0028\u0029",
+            "name": "getContainer",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Commands-AbstractCommand.html#method_getContainer"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Commands\\AbstractCommand\u003A\u003AsetContainer\u0028\u0029",
+            "name": "setContainer",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Commands-AbstractCommand.html#method_setContainer"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Commands\\AbstractCommand\u003A\u003A\u0024container",
+            "name": "container",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Commands-AbstractCommand.html#property_container"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Commands\\ContainerCommandResolver",
+            "name": "ContainerCommandResolver",
+            "summary": "A\u0020resolver\u0020for\u0020commands\u0020which\u0020are\u0020container\u0020aware.\u0020Similar\u0020to\u0020Symfony\u0027s\nContainerControllerResolver.",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Commands-ContainerCommandResolver.html"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Commands\\ContainerCommandResolver\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Commands-ContainerCommandResolver.html#method___construct"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Commands\\ContainerCommandResolver\u003A\u003AgetCommand\u0028\u0029",
+            "name": "getCommand",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Commands-ContainerCommandResolver.html#method_getCommand"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Commands\\ContainerCommandResolver\u003A\u003AinstantiateCommand\u0028\u0029",
+            "name": "instantiateCommand",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Commands-ContainerCommandResolver.html#method_instantiateCommand"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Commands\\ContainerCommandResolver\u003A\u003A\u0024container",
+            "name": "container",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Commands-ContainerCommandResolver.html#property_container"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Containers\\DependencyInjection\\ThemeExtension",
+            "name": "ThemeExtension",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Containers-DependencyInjection-ThemeExtension.html"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Containers\\DependencyInjection\\ThemeExtension\u003A\u003AgetAlias\u0028\u0029",
+            "name": "getAlias",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Containers-DependencyInjection-ThemeExtension.html#method_getAlias"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Containers\\DependencyInjection\\ThemeExtension\u003A\u003Aload\u0028\u0029",
+            "name": "load",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Containers-DependencyInjection-ThemeExtension.html#method_load"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Controllers\\ControllerResolver",
+            "name": "ControllerResolver",
+            "summary": "Our\u0020container\u0020controller\u0020resolver.\u0020This\u0020resolver\u0020is\u0020essentially\u0020the\u0020same\u0020resolver\u0020as\nthe\u0020one\u0020in\u0020Symony\u0027s\u0020Framework\u0020Bundle.\u0020The\u0020primary\u0020difference\u0020is\u0020that\u0020we\u0020can\u0020pass\u0020our\ncontainer\u0020in\u0020the\u0020constructor\u0020and\u0020instruct\u0020the\u0020resolver\u0020to\u0020check\u0020for\u0020instances\u0020of\u0020our\nparent\u0020Controller\u0020class.",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Controllers-ControllerResolver.html"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Controllers\\ControllerResolver\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Controllers-ControllerResolver.html#method___construct"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Controllers\\ControllerResolver\u003A\u003AinstantiateController\u0028\u0029",
+            "name": "instantiateController",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Controllers-ControllerResolver.html#method_instantiateController"
+        },                {
             "fqsen": "\\",
             "name": "\\",
             "summary": "",
@@ -1935,6 +2035,11 @@ Search.appendIndex(
             "name": "Containers",
             "summary": "",
             "url": "namespaces/newshour-wpcorethemecomponents-containers.html"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Containers\\DependencyInjection",
+            "name": "DependencyInjection",
+            "summary": "",
+            "url": "namespaces/newshour-wpcorethemecomponents-containers-dependencyinjection.html"
         },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Contexts",
             "name": "Contexts",

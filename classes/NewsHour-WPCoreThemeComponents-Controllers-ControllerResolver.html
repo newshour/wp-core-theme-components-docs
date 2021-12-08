@@ -80,21 +80,26 @@
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    FrontController
+    ControllerResolver
 
+        <span class="phpdocumentor-element__extends">
+        extends <abbr title="\Symfony\Component\HttpKernel\Controller\ContainerControllerResolver">ContainerControllerResolver</abbr>
+    </span>
     
     
     
     </h2>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Controllers/FrontController.php"><a href="files/src-controllers-frontcontroller.html"><abbr title="src/Controllers/FrontController.php">FrontController.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Controllers/ControllerResolver.php"><a href="files/src-controllers-controllerresolver.html"><abbr title="src/Controllers/ControllerResolver.php">ControllerResolver.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">32</span>
+    <span class="phpdocumentor-element-found-in__line">21</span>
 </aside>
 
-            <p class="phpdocumentor-summary">Loads controller classes from the Wordpress &quot;template&quot; files. e.g. single.php,
-single-some-post-type.php, page.php, etc.</p>
+            <p class="phpdocumentor-summary">Our container controller resolver. This resolver is essentially the same resolver as
+the one in Symony&#039;s Framework Bundle. The primary difference is that we can pass our
+container in the constructor and instruct the resolver to check for instances of our
+parent Controller class.</p>
 
     <section class="phpdocumentor-description"></section>
 
@@ -126,11 +131,18 @@ single-some-post-type.php, page.php, etc.</p>
 
 <dl class="phpdocumentor-table-of-contents">
                     <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/NewsHour-WPCoreThemeComponents-Controllers-FrontController.html#method_run">run()</a>
+    <a href="classes/NewsHour-WPCoreThemeComponents-Controllers-ControllerResolver.html#method___construct">__construct()</a>
     <span>
-                        &nbsp;: <a href="classes/NewsHour-WPCoreThemeComponents-Controllers-Controller.html"><abbr title="\NewsHour\WPCoreThemeComponents\Controllers\Controller">Controller</abbr></a>    </span>
+                        &nbsp;: mixed    </span>
 </dt>
-<dd>Loads a controller from the DI container and invokes the passed method name ($method).</dd>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Controllers-ControllerResolver.html#method_instantiateController">instantiateController()</a>
+    <span>
+                        &nbsp;: object    </span>
+</dt>
+<dd></dd>
 
         </dl>
 
@@ -143,44 +155,87 @@ single-some-post-type.php, page.php, etc.</p>
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/NewsHour-WPCoreThemeComponents-Controllers-FrontController.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/NewsHour-WPCoreThemeComponents-Controllers-ControllerResolver.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
                     <article
         class="phpdocumentor-element
             -method
             -public
-                                    -static                    "
+                                                        "
 >
-    <h4 class="phpdocumentor-element__name" id="method_run">
-        run()
-        <a href="classes/NewsHour-WPCoreThemeComponents-Controllers-FrontController.html#method_run" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method___construct">
+        __construct()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Controllers-ControllerResolver.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Controllers/FrontController.php"><a href="files/src-controllers-frontcontroller.html"><abbr title="src/Controllers/FrontController.php">FrontController.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Controllers/ControllerResolver.php"><a href="files/src-controllers-controllerresolver.html"><abbr title="src/Controllers/ControllerResolver.php">ControllerResolver.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">42</span>
+    <span class="phpdocumentor-element-found-in__line">27</span>
 </aside>
 
-        <p class="phpdocumentor-summary">Loads a controller from the DI container and invokes the passed method name ($method).</p>
-
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">run</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$controllerClass</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$method</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/NewsHour-WPCoreThemeComponents-Controllers-Controller.html"><abbr title="\NewsHour\WPCoreThemeComponents\Controllers\Controller">Controller</abbr></a></span></code>
+                <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\DependencyInjection\ContainerInterface">ContainerInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$container</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href=""><abbr title=""></abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$logger</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
         <section class="phpdocumentor-description"></section>
 
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$controllerClass</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                <span class="phpdocumentor-signature__argument__name">$container</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\DependencyInjection\ContainerInterface">ContainerInterface</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                     <section class="phpdocumentor-description"></section>
 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$method</span>
+                <span class="phpdocumentor-signature__argument__name">$logger</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href=""><abbr title=""></abbr></a></span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_instantiateController">
+        instantiateController()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Controllers-ControllerResolver.html#method_instantiateController" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Controllers/ControllerResolver.php"><a href="files/src-controllers-controllerresolver.html"><abbr title="src/Controllers/ControllerResolver.php">ControllerResolver.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">36</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+                <span class="phpdocumentor-signature__name">instantiateController</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$class</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">object</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$class</span>
                 : <span class="phpdocumentor-signature__argument__return-type">string</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
@@ -192,7 +247,7 @@ single-some-post-type.php, page.php, etc.</p>
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type"><a href="classes/NewsHour-WPCoreThemeComponents-Controllers-Controller.html"><abbr title="\NewsHour\WPCoreThemeComponents\Controllers\Controller">Controller</abbr></a></span>
+    <span class="phpdocumentor-signature__response_type">object</span>
             &mdash;
             <section class="phpdocumentor-description"></section>
 
@@ -214,7 +269,7 @@ single-some-post-type.php, page.php, etc.</p>
 </section>
             </div>
         </div>
-        <a href="classes/NewsHour-WPCoreThemeComponents-Controllers-FrontController.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/NewsHour-WPCoreThemeComponents-Controllers-ControllerResolver.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 
