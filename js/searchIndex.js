@@ -666,20 +666,25 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/NewsHour-WPCoreThemeComponents-Utilities.html#method_createLinkTag"
         },                {
-            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Utilities\u003A\u003Asplitter\u0028\u0029",
-            "name": "splitter",
-            "summary": "Splits\u0020a\u0020string\u0020by\u0020a\u0020token.\u0020Default\u0020token\u0020is\u0020a\u0020space.\u0020Essentially\u0020a\u0020wrapper\nfor\u0020explode\u0028\u0029\u0020to\u0020catch\u0020errors.",
-            "url": "classes/NewsHour-WPCoreThemeComponents-Utilities.html#method_splitter"
-        },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Utilities\u003A\u003AgetImageDimension\u0028\u0029",
             "name": "getImageDimension",
             "summary": "Retrieve\u0020the\u0020image\u0020size\u0020dimension.\u0020For\u0020example,\u0020to\u0020retrieve\u0020the\u0020height\u0020dimension\u0020of\u0020a\u0020\u0022large\u0022\nWordpress\/Timber\u0020image\u003A",
             "url": "classes/NewsHour-WPCoreThemeComponents-Utilities.html#method_getImageDimension"
         },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Utilities\u003A\u003AgetRemoteImageDim\u0028\u0029",
+            "name": "getRemoteImageDim",
+            "summary": "Fetch\u0020a\u0020remote\u0020image\u0027s\u0020size\u0020dimensions.",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Utilities.html#method_getRemoteImageDim"
+        },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Utilities\u003A\u003AhasKey\u0028\u0029",
             "name": "hasKey",
             "summary": "Performs\u0020a\u0020case\u002Dinsensitive\u0020key\u0020check.",
             "url": "classes/NewsHour-WPCoreThemeComponents-Utilities.html#method_hasKey"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Utilities\u003A\u003Asplitter\u0028\u0029",
+            "name": "splitter",
+            "summary": "Splits\u0020a\u0020string\u0020by\u0020a\u0020token.\u0020Default\u0020token\u0020is\u0020a\u0020space.\u0020Essentially\u0020a\u0020wrapper\nfor\u0020explode\u0028\u0029\u0020to\u0020catch\u0020errors.",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Utilities.html#method_splitter"
         },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Utilities\u003A\u003AstaticUrl\u0028\u0029",
             "name": "staticUrl",
@@ -690,6 +695,11 @@ Search.appendIndex(
             "name": "toCarbonObj",
             "summary": "Converts\u0020a\u0020mixed\u0020value\u0020\u0028int\u007Cstring\u0029\u0020into\u0020a\u0020Carbon\u0020date\u0020object.\u0020An\u0020optional\ntimezone\u0020can\u0020be\u0020passed.\u0020If\u0020no\u0020timezone\u0020is\u0020passed,\u0020the\u0020value\u0020of\u0020wp_timezone\u0028\u0029\nis\u0020assumed.",
             "url": "classes/NewsHour-WPCoreThemeComponents-Utilities.html#method_toCarbonObj"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Utilities\u003A\u003AvalidateUrlExtension\u0028\u0029",
+            "name": "validateUrlExtension",
+            "summary": "Validates\u0020that\u0020a\u0020URL\u0020string\u0020uses\u0020an\u0020allowed\u0020extension.",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Utilities.html#method_validateUrlExtension"
         },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Annotations\\HttpMethods",
             "name": "HttpMethods",
@@ -1910,6 +1920,11 @@ Search.appendIndex(
             "name": "addTwigFunctions",
             "summary": "Adds\u0020common\u0020helper\u0020functions\u0020for\u0020access\u0020in\u0020Twig\u0020templates.",
             "url": "classes/NewsHour-WPCoreThemeComponents-Managers-Bootstrap.html#method_addTwigFunctions"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Managers\\Bootstrap\u003A\u003ADEFAULT_IMAGE_EXTENSIONS",
+            "name": "DEFAULT_IMAGE_EXTENSIONS",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Managers-Bootstrap.html#constant_DEFAULT_IMAGE_EXTENSIONS"
         },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Forms\\Form",
             "name": "Form",
