@@ -166,6 +166,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/NewsHour-WPCoreThemeComponents-Controllers-Controller.html#method_getSubscribedServices"
         },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Controllers\\Controller\u003A\u003AgetResponse\u0028\u0029",
+            "name": "getResponse",
+            "summary": "Get\u0020the\u0020Response\u0020object\u0020used\u0020build\u0020the\u0020final\u0020response.",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Controllers-Controller.html#method_getResponse"
+        },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Controllers\\Controller\u003A\u003Arender\u0028\u0029",
             "name": "render",
             "summary": "Renders\u0020the\u0020view\u0020as\u0020HTML\u0020and\u0020returns\u0020a\u0020Response\u0020object.\u0020Timber\u0020template\u0020caching\u0020parameters\ncan\u0020be\u0020passed\u0020via\u0020the\u0020\u0024kwargs\u0020argument.",
@@ -181,6 +186,11 @@ Search.appendIndex(
             "summary": "Renders\u0020the\u0020view\u0020as\u0020JSON\u0020and\u0020returns\u0020a\u0020Response\u0020object.",
             "url": "classes/NewsHour-WPCoreThemeComponents-Controllers-Controller.html#method_renderJson"
         },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Controllers\\Controller\u003A\u003Aredirect\u0028\u0029",
+            "name": "redirect",
+            "summary": "Redirect\u0020to\u0020a\u0020URL.\u0020Call\u0020the\u0020internal\u0020Wordpress\u0020function\u0020\u0027wp_safe_redirect\u0027.",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Controllers-Controller.html#method_redirect"
+        },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Controllers\\Controller\u003A\u003AaddCorsHeaders\u0028\u0029",
             "name": "addCorsHeaders",
             "summary": "Add\u0020CORS\u0020headers\u0020to\u0020the\u0020headers\u0020array.",
@@ -190,6 +200,11 @@ Search.appendIndex(
             "name": "getQueuedHeaders",
             "summary": "Retrieves\u0020the\u0020headers\u0020set\u0020by\u0020Wordpress\u0020so\u0020that\u0020they\u0020can\u0020be\u0020into\u0020our\nResponse\u0020object.",
             "url": "classes/NewsHour-WPCoreThemeComponents-Controllers-Controller.html#method_getQueuedHeaders"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Controllers\\Controller\u003A\u003A\u0024response",
+            "name": "response",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Controllers-Controller.html#property_response"
         },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Controllers\\Controller\u003A\u003A\u0024container",
             "name": "container",
@@ -351,10 +366,30 @@ Search.appendIndex(
             "summary": "Pulls\u0020fresh\u0020tag\u0020data.\u0020Heads\u0020up,\u0020this\u0020incurs\u0020a\u0020db\u0020hit.",
             "url": "classes/NewsHour-WPCoreThemeComponents-Models-CorePost.html#method_refreshTags"
         },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Models\\CorePost\u003A\u003AgetPublishedDate\u0028\u0029",
+            "name": "getPublishedDate",
+            "summary": "Returns\u0020the\u0020published\u0020date\u0020as\u0020a\u0020Carbon\u0020obj.",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Models-CorePost.html#method_getPublishedDate"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Models\\CorePost\u003A\u003AgetModifiedDate\u0028\u0029",
+            "name": "getModifiedDate",
+            "summary": "Returns\u0020the\u0020modifed\u0020date\u0020as\u0020a\u0020Carbon\u0020obj.",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Models-CorePost.html#method_getModifiedDate"
+        },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Models\\CorePost\u003A\u003A\u0024storage",
             "name": "storage",
             "summary": "",
             "url": "classes/NewsHour-WPCoreThemeComponents-Models-CorePost.html#property_storage"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Models\\CorePost\u003A\u003A\u0024modifiedDateObj",
+            "name": "modifiedDateObj",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Models-CorePost.html#property_modifiedDateObj"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Models\\CorePost\u003A\u003A\u0024publishedDateObj",
+            "name": "publishedDateObj",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Models-CorePost.html#property_publishedDateObj"
         },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Query\\PostsResultSet",
             "name": "PostsResultSet",
@@ -410,6 +445,11 @@ Search.appendIndex(
             "name": "shuffle",
             "summary": "Shuffles\u0020\u0028and\u0020slices\u0029\u0020the\u0020result\u0020set.\u0020This\u0020method\u0020will\u0020hit\u0020the\u0020database.",
             "url": "classes/NewsHour-WPCoreThemeComponents-Query-PostsResultSet.html#method_shuffle"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Query\\PostsResultSet\u003A\u003AaddToCollection\u0028\u0029",
+            "name": "addToCollection",
+            "summary": "Add\u0020the\u0020results\u0020directly\u0020to\u0020a\u0020collection.\u0020This\u0020is\u0020useful\u0020for\u0020when\u0020you\u0020are\u0020working\u0020with\nan\u0020existing\u0020collection\u0020and\u0020wish\u0020to\u0020merge\u0020the\u0020results\u0020in.\u0020Note\u0020that\u0020the\u0020interface\nfor\u0020a\u0020collection\u0020uses\u0020Doctrine\\Common\\Collections\\Collection.\u0020Collection\u0020is\u0020not\u0020yet\npart\u0020of\u0020the\u0020standard\u0020library\u003A\u0020https\u003A\/\/www.php.net\/manual\/en\/class.ds\u002Dcollection.php",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Query-PostsResultSet.html#method_addToCollection"
         },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Query\\PostsResultSet\u003A\u003Aany\u0028\u0029",
             "name": "any",
@@ -1831,6 +1871,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/NewsHour-WPCoreThemeComponents-Components-Meta-TwitterMeta.html#method_setDoNotTrack"
         },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Components\\Meta\\TwitterMeta\u003A\u003AgetLabels\u0028\u0029",
+            "name": "getLabels",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Components-Meta-TwitterMeta.html#method_getLabels"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Components\\Meta\\TwitterMeta\u003A\u003AaddLabels\u0028\u0029",
+            "name": "addLabels",
+            "summary": "Adds\u0020data\u0020for\u0020Twitter\u0020\u0022label\u005Bn\u003D1\u005D\u0022\u0020data\u0020where\u0020\u0022label\u0022\u0020is\u0020the\u0020dictionary\u0020key\nand\u0020\u0022data\u0022\u0020is\u0020the\u0020dictionary\u0020value.",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Components-Meta-TwitterMeta.html#method_addLabels"
+        },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Components\\Meta\\TwitterMeta\u003A\u003A\u0024site",
             "name": "site",
             "summary": "",
@@ -1855,6 +1905,11 @@ Search.appendIndex(
             "name": "doNotTrack",
             "summary": "",
             "url": "classes/NewsHour-WPCoreThemeComponents-Components-Meta-TwitterMeta.html#property_doNotTrack"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Components\\Meta\\TwitterMeta\u003A\u003A\u0024labels",
+            "name": "labels",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Components-Meta-TwitterMeta.html#property_labels"
         },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Containers\\ContainerFactory",
             "name": "ContainerFactory",

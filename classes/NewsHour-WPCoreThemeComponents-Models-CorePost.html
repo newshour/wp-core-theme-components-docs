@@ -93,7 +93,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Models/CorePost.php"><a href="files/src-models-corepost.html"><abbr title="src/Models/CorePost.php">CorePost.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">17</span>
+    <span class="phpdocumentor-element-found-in__line">18</span>
 </aside>
 
             <p class="phpdocumentor-summary">Provides common methods for CorePost objects.</p>
@@ -128,6 +128,20 @@
 
 <dl class="phpdocumentor-table-of-contents">
                 <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Models-CorePost.html#property_modifiedDateObj">$modifiedDateObj</a>
+    <span>
+                &nbsp;: <abbr title="\Carbon\Carbon">Carbon</abbr>|null            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Models-CorePost.html#property_publishedDateObj">$publishedDateObj</a>
+    <span>
+                &nbsp;: <abbr title="\Carbon\Carbon">Carbon</abbr>|null            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a href="classes/NewsHour-WPCoreThemeComponents-Models-CorePost.html#property_storage">$storage</a>
     <span>
                 &nbsp;: array&lt;string|int, mixed&gt;            </span>
@@ -148,6 +162,20 @@
 </dt>
 <dd>Get the post excerpt by returning the `post_excerpt` property set by Wordpress. If this property
 is not set, the content is truncated and used as the excerpt.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Models-CorePost.html#method_getModifiedDate">getModifiedDate()</a>
+    <span>
+                        &nbsp;: <abbr title="\Carbon\Carbon">Carbon</abbr>|null    </span>
+</dt>
+<dd>Returns the modifed date as a Carbon obj.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Models-CorePost.html#method_getPublishedDate">getPublishedDate()</a>
+    <span>
+                        &nbsp;: <abbr title="\Carbon\Carbon">Carbon</abbr>|null    </span>
+</dt>
+<dd>Returns the published date as a Carbon obj.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/NewsHour-WPCoreThemeComponents-Models-CorePost.html#method_refreshCategories">refreshCategories()</a>
@@ -189,6 +217,68 @@ is not set, the content is truncated and used as the excerpt.</dd>
             -private
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="property_modifiedDateObj">
+        $modifiedDateObj
+        <a href="classes/NewsHour-WPCoreThemeComponents-Models-CorePost.html#property_modifiedDateObj" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Models/CorePost.php"><a href="files/src-models-corepost.html"><abbr title="src/Models/CorePost.php">CorePost.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">26</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type"><abbr title="\Carbon\Carbon">Carbon</abbr>|null</span>
+    <span class="phpdocumentor-signature__name">$modifiedDateObj</span>
+     = <span class="phpdocumentor-signature__default-value">null</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_publishedDateObj">
+        $publishedDateObj
+        <a href="classes/NewsHour-WPCoreThemeComponents-Models-CorePost.html#property_publishedDateObj" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Models/CorePost.php"><a href="files/src-models-corepost.html"><abbr title="src/Models/CorePost.php">CorePost.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">31</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type"><abbr title="\Carbon\Carbon">Carbon</abbr>|null</span>
+    <span class="phpdocumentor-signature__name">$publishedDateObj</span>
+     = <span class="phpdocumentor-signature__default-value">null</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="property_storage">
         $storage
         <a href="classes/NewsHour-WPCoreThemeComponents-Models-CorePost.html#property_storage" class="headerlink"><i class="fas fa-link"></i></a>
@@ -198,7 +288,7 @@ is not set, the content is truncated and used as the excerpt.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Models/CorePost.php"><a href="files/src-models-corepost.html"><abbr title="src/Models/CorePost.php">CorePost.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">20</span>
+    <span class="phpdocumentor-element-found-in__line">21</span>
 </aside>
 
     
@@ -232,7 +322,7 @@ is not set, the content is truncated and used as the excerpt.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Models/CorePost.php"><a href="files/src-models-corepost.html"><abbr title="src/Models/CorePost.php">CorePost.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">42</span>
+    <span class="phpdocumentor-element-found-in__line">53</span>
 </aside>
 
         <p class="phpdocumentor-summary">Overrides parent::categories() so that we store the data.</p>
@@ -266,7 +356,7 @@ is not set, the content is truncated and used as the excerpt.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Models/CorePost.php"><a href="files/src-models-corepost.html"><abbr title="src/Models/CorePost.php">CorePost.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">28</span>
+    <span class="phpdocumentor-element-found-in__line">39</span>
 </aside>
 
         <p class="phpdocumentor-summary">Get the post excerpt by returning the `post_excerpt` property set by Wordpress. If this property
@@ -294,6 +384,74 @@ is not set, the content is truncated and used as the excerpt.</p>
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_getModifiedDate">
+        getModifiedDate()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Models-CorePost.html#method_getModifiedDate" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Models/CorePost.php"><a href="files/src-models-corepost.html"><abbr title="src/Models/CorePost.php">CorePost.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">122</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Returns the modifed date as a Carbon obj.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getModifiedDate</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Carbon\Carbon">Carbon</abbr>|null</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type"><abbr title="\Carbon\Carbon">Carbon</abbr>|null</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getPublishedDate">
+        getPublishedDate()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Models-CorePost.html#method_getPublishedDate" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Models/CorePost.php"><a href="files/src-models-corepost.html"><abbr title="src/Models/CorePost.php">CorePost.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">105</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Returns the published date as a Carbon obj.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getPublishedDate</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Carbon\Carbon">Carbon</abbr>|null</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type"><abbr title="\Carbon\Carbon">Carbon</abbr>|null</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_refreshCategories">
         refreshCategories()
         <a href="classes/NewsHour-WPCoreThemeComponents-Models-CorePost.html#method_refreshCategories" class="headerlink"><i class="fas fa-link"></i></a>
@@ -301,7 +459,7 @@ is not set, the content is truncated and used as the excerpt.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Models/CorePost.php"><a href="files/src-models-corepost.html"><abbr title="src/Models/CorePost.php">CorePost.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">56</span>
+    <span class="phpdocumentor-element-found-in__line">67</span>
 </aside>
 
         <p class="phpdocumentor-summary">Pulls fresh category data. Heads up, this incurs a db hit.</p>
@@ -335,7 +493,7 @@ is not set, the content is truncated and used as the excerpt.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Models/CorePost.php"><a href="files/src-models-corepost.html"><abbr title="src/Models/CorePost.php">CorePost.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">82</span>
+    <span class="phpdocumentor-element-found-in__line">93</span>
 </aside>
 
         <p class="phpdocumentor-summary">Pulls fresh tag data. Heads up, this incurs a db hit.</p>
@@ -369,7 +527,7 @@ is not set, the content is truncated and used as the excerpt.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Models/CorePost.php"><a href="files/src-models-corepost.html"><abbr title="src/Models/CorePost.php">CorePost.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">68</span>
+    <span class="phpdocumentor-element-found-in__line">79</span>
 </aside>
 
         <p class="phpdocumentor-summary">Overrides parent::tags() so that we store the data.</p>

@@ -93,7 +93,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Query/PostsResultSet.php"><a href="files/src-query-postsresultset.html"><abbr title="src/Query/PostsResultSet.php">PostsResultSet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">30</span>
+    <span class="phpdocumentor-element-found-in__line">32</span>
 </aside>
 
             <p class="phpdocumentor-summary">Provides a fluent interface for fetching data from WP.</p>
@@ -178,6 +178,16 @@
                         &nbsp;: string    </span>
 </dt>
 <dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Query-PostsResultSet.html#method_addToCollection">addToCollection()</a>
+    <span>
+                        &nbsp;: void    </span>
+</dt>
+<dd>Add the results directly to a collection. This is useful for when you are working with
+an existing collection and wish to merge the results in. Note that the interface
+for a collection uses Doctrine\Common\Collections\Collection. Collection is not yet
+part of the standard library: https://www.php.net/manual/en/class.ds-collection.php</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/NewsHour-WPCoreThemeComponents-Query-PostsResultSet.html#method_all">all()</a>
@@ -348,7 +358,7 @@ will hit the database.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/NewsHour-WPCoreThemeComponents-Query-PostsResultSet.html#method_pk">pk()</a>
     <span>
-                        &nbsp;: array&lt;string|int, mixed&gt;    </span>
+                        &nbsp;: null|object    </span>
 </dt>
 <dd>Returns the first result by primary key (post ID). This method will
 hit the database.</dd>
@@ -409,7 +419,7 @@ hit the database.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Query/PostsResultSet.php"><a href="files/src-query-postsresultset.html"><abbr title="src/Query/PostsResultSet.php">PostsResultSet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">33</span>
+    <span class="phpdocumentor-element-found-in__line">35</span>
 </aside>
 
     
@@ -439,7 +449,7 @@ hit the database.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Query/PostsResultSet.php"><a href="files/src-query-postsresultset.html"><abbr title="src/Query/PostsResultSet.php">PostsResultSet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">42</span>
+    <span class="phpdocumentor-element-found-in__line">44</span>
 </aside>
 
     
@@ -469,7 +479,7 @@ hit the database.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Query/PostsResultSet.php"><a href="files/src-query-postsresultset.html"><abbr title="src/Query/PostsResultSet.php">PostsResultSet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">36</span>
+    <span class="phpdocumentor-element-found-in__line">38</span>
 </aside>
 
     
@@ -499,7 +509,7 @@ hit the database.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Query/PostsResultSet.php"><a href="files/src-query-postsresultset.html"><abbr title="src/Query/PostsResultSet.php">PostsResultSet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">39</span>
+    <span class="phpdocumentor-element-found-in__line">41</span>
 </aside>
 
     
@@ -533,7 +543,7 @@ hit the database.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Query/PostsResultSet.php"><a href="files/src-query-postsresultset.html"><abbr title="src/Query/PostsResultSet.php">PostsResultSet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">65</span>
+    <span class="phpdocumentor-element-found-in__line">67</span>
 </aside>
 
     
@@ -559,6 +569,63 @@ hit the database.</dd>
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_addToCollection">
+        addToCollection()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Query-PostsResultSet.html#method_addToCollection" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Query/PostsResultSet.php"><a href="files/src-query-postsresultset.html"><abbr title="src/Query/PostsResultSet.php">PostsResultSet.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">267</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Add the results directly to a collection. This is useful for when you are working with
+an existing collection and wish to merge the results in. Note that the interface
+for a collection uses Doctrine\Common\Collections\Collection. Collection is not yet
+part of the standard library: https://www.php.net/manual/en/class.ds-collection.php</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">addToCollection</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Doctrine\Common\Collections\Collection">Collection</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__reference-operator">&amp;</span><span class="phpdocumentor-signature__argument__name">$collection</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$key</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$collection</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Doctrine\Common\Collections\Collection">Collection</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$key</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Optional key</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">void</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_all">
         all()
         <a href="classes/NewsHour-WPCoreThemeComponents-Query-PostsResultSet.html#method_all" class="headerlink"><i class="fas fa-link"></i></a>
@@ -566,7 +633,7 @@ hit the database.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Query/PostsResultSet.php"><a href="files/src-query-postsresultset.html"><abbr title="src/Query/PostsResultSet.php">PostsResultSet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">185</span>
+    <span class="phpdocumentor-element-found-in__line">198</span>
 </aside>
 
         <p class="phpdocumentor-summary">Returns all records in the collection. This method will hit the database.</p>
@@ -600,7 +667,7 @@ hit the database.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Query/PostsResultSet.php"><a href="files/src-query-postsresultset.html"><abbr title="src/Query/PostsResultSet.php">PostsResultSet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">253</span>
+    <span class="phpdocumentor-element-found-in__line">293</span>
 </aside>
 
         <p class="phpdocumentor-summary">Retrieve results with any status.</p>
@@ -634,7 +701,7 @@ hit the database.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Query/PostsResultSet.php"><a href="files/src-query-postsresultset.html"><abbr title="src/Query/PostsResultSet.php">PostsResultSet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">262</span>
+    <span class="phpdocumentor-element-found-in__line">302</span>
 </aside>
 
         <p class="phpdocumentor-summary">Set ordering to ASC.</p>
@@ -668,7 +735,7 @@ hit the database.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Query/PostsResultSet.php"><a href="files/src-query-postsresultset.html"><abbr title="src/Query/PostsResultSet.php">PostsResultSet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">274</span>
+    <span class="phpdocumentor-element-found-in__line">314</span>
 </aside>
 
         <p class="phpdocumentor-summary">Sets the cache expires time in seconds. -1 is no cache, 0 is
@@ -714,7 +781,7 @@ cache forever.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Query/PostsResultSet.php"><a href="files/src-query-postsresultset.html"><abbr title="src/Query/PostsResultSet.php">PostsResultSet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">285</span>
+    <span class="phpdocumentor-element-found-in__line">325</span>
 </aside>
 
         <p class="phpdocumentor-summary">Sets the cache to store forever.</p>
@@ -748,7 +815,7 @@ cache forever.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Query/PostsResultSet.php"><a href="files/src-query-postsresultset.html"><abbr title="src/Query/PostsResultSet.php">PostsResultSet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">298</span>
+    <span class="phpdocumentor-element-found-in__line">338</span>
 </aside>
 
         <p class="phpdocumentor-summary">Filter by date range. The default is to use &#039;inclusive&#039; dates.</p>
@@ -811,7 +878,7 @@ cache forever.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Query/PostsResultSet.php"><a href="files/src-query-postsresultset.html"><abbr title="src/Query/PostsResultSet.php">PostsResultSet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">318</span>
+    <span class="phpdocumentor-element-found-in__line">358</span>
 </aside>
 
         <p class="phpdocumentor-summary">Set ordering to DESC.</p>
@@ -845,7 +912,7 @@ cache forever.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Query/PostsResultSet.php"><a href="files/src-query-postsresultset.html"><abbr title="src/Query/PostsResultSet.php">PostsResultSet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">330</span>
+    <span class="phpdocumentor-element-found-in__line">370</span>
 </aside>
 
         <p class="phpdocumentor-summary">Exclude by ID or parent ID.</p>
@@ -899,7 +966,7 @@ cache forever.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Query/PostsResultSet.php"><a href="files/src-query-postsresultset.html"><abbr title="src/Query/PostsResultSet.php">PostsResultSet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">82</span>
+    <span class="phpdocumentor-element-found-in__line">84</span>
 </aside>
 
         <p class="phpdocumentor-summary">Creates a ResultSet instance.</p>
@@ -952,7 +1019,7 @@ cache forever.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Query/PostsResultSet.php"><a href="files/src-query-postsresultset.html"><abbr title="src/Query/PostsResultSet.php">PostsResultSet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">359</span>
+    <span class="phpdocumentor-element-found-in__line">398</span>
 </aside>
 
         <p class="phpdocumentor-summary">Filter a query by keyword args. See WP_Query documentation for a full
@@ -1015,7 +1082,7 @@ TimberManager::classMap().</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Query/PostsResultSet.php"><a href="files/src-query-postsresultset.html"><abbr title="src/Query/PostsResultSet.php">PostsResultSet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">196</span>
+    <span class="phpdocumentor-element-found-in__line">209</span>
 </aside>
 
         <p class="phpdocumentor-summary">Retrieve only the first result. This method will hit the database.</p>
@@ -1064,7 +1131,7 @@ TimberManager::classMap().</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Query/PostsResultSet.php"><a href="files/src-query-postsresultset.html"><abbr title="src/Query/PostsResultSet.php">PostsResultSet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">98</span>
+    <span class="phpdocumentor-element-found-in__line">100</span>
 </aside>
 
         <p class="phpdocumentor-summary">Returns the result set array based on the set query params. This method
@@ -1114,7 +1181,7 @@ will hit the database.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Query/PostsResultSet.php"><a href="files/src-query-postsresultset.html"><abbr title="src/Query/PostsResultSet.php">PostsResultSet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">153</span>
+    <span class="phpdocumentor-element-found-in__line">162</span>
 </aside>
 
         <p class="phpdocumentor-summary">Alias for pk(int $pk), but also accepts an array of IDs.</p>
@@ -1160,7 +1227,7 @@ will hit the database.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Query/PostsResultSet.php"><a href="files/src-query-postsresultset.html"><abbr title="src/Query/PostsResultSet.php">PostsResultSet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">397</span>
+    <span class="phpdocumentor-element-found-in__line">436</span>
 </aside>
 
         <p class="phpdocumentor-summary">Deprectated, use idsOnly() instead.</p>
@@ -1209,7 +1276,7 @@ will hit the database.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Query/PostsResultSet.php"><a href="files/src-query-postsresultset.html"><abbr title="src/Query/PostsResultSet.php">PostsResultSet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">385</span>
+    <span class="phpdocumentor-element-found-in__line">424</span>
 </aside>
 
         <p class="phpdocumentor-summary">Sets the `fields` parameter to `ids`.</p>
@@ -1243,7 +1310,7 @@ will hit the database.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Query/PostsResultSet.php"><a href="files/src-query-postsresultset.html"><abbr title="src/Query/PostsResultSet.php">PostsResultSet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">433</span>
+    <span class="phpdocumentor-element-found-in__line">472</span>
 </aside>
 
         <p class="phpdocumentor-summary">Set `ignore_sticky_posts` to true.</p>
@@ -1277,7 +1344,7 @@ will hit the database.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Query/PostsResultSet.php"><a href="files/src-query-postsresultset.html"><abbr title="src/Query/PostsResultSet.php">PostsResultSet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">409</span>
+    <span class="phpdocumentor-element-found-in__line">448</span>
 </aside>
 
         <p class="phpdocumentor-summary">Fetch results by a list of post IDs.</p>
@@ -1330,7 +1397,7 @@ will hit the database.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Query/PostsResultSet.php"><a href="files/src-query-postsresultset.html"><abbr title="src/Query/PostsResultSet.php">PostsResultSet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">446</span>
+    <span class="phpdocumentor-element-found-in__line">485</span>
 </aside>
 
         <p class="phpdocumentor-summary">Fetch the latest entries by `post_date`.</p>
@@ -1385,7 +1452,7 @@ will hit the database.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Query/PostsResultSet.php"><a href="files/src-query-postsresultset.html"><abbr title="src/Query/PostsResultSet.php">PostsResultSet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">464</span>
+    <span class="phpdocumentor-element-found-in__line">503</span>
 </aside>
 
         <p class="phpdocumentor-summary">Set the `posts_per_page` field.</p>
@@ -1430,7 +1497,7 @@ will hit the database.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Query/PostsResultSet.php"><a href="files/src-query-postsresultset.html"><abbr title="src/Query/PostsResultSet.php">PostsResultSet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">475</span>
+    <span class="phpdocumentor-element-found-in__line">514</span>
 </aside>
 
         <p class="phpdocumentor-summary">Sets cache expires to indefinite. Same as cache(0).</p>
@@ -1464,7 +1531,7 @@ will hit the database.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Query/PostsResultSet.php"><a href="files/src-query-postsresultset.html"><abbr title="src/Query/PostsResultSet.php">PostsResultSet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">486</span>
+    <span class="phpdocumentor-element-found-in__line">525</span>
 </aside>
 
         <p class="phpdocumentor-summary">Sets the `order` parameter.</p>
@@ -1509,7 +1576,7 @@ will hit the database.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Query/PostsResultSet.php"><a href="files/src-query-postsresultset.html"><abbr title="src/Query/PostsResultSet.php">PostsResultSet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">503</span>
+    <span class="phpdocumentor-element-found-in__line">542</span>
 </aside>
 
         <p class="phpdocumentor-summary">Sets the `orderby` value.</p>
@@ -1554,7 +1621,7 @@ will hit the database.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Query/PostsResultSet.php"><a href="files/src-query-postsresultset.html"><abbr title="src/Query/PostsResultSet.php">PostsResultSet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">518</span>
+    <span class="phpdocumentor-element-found-in__line">557</span>
 </aside>
 
         <p class="phpdocumentor-summary">Sets the `paged` parameter and sets `no_found_rows` to false.</p>
@@ -1599,7 +1666,7 @@ will hit the database.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Query/PostsResultSet.php"><a href="files/src-query-postsresultset.html"><abbr title="src/Query/PostsResultSet.php">PostsResultSet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">138</span>
+    <span class="phpdocumentor-element-found-in__line">141</span>
 </aside>
 
         <p class="phpdocumentor-summary">Returns the first result by primary key (post ID). This method will
@@ -1607,7 +1674,7 @@ hit the database.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">pk</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pk</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+                <span class="phpdocumentor-signature__name">pk</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pk</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">null|object</span></code>
 
         <section class="phpdocumentor-description"></section>
 
@@ -1624,9 +1691,24 @@ hit the database.</p>
             </dl>
 
     
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">throws</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><abbr title="\UnexpectedValueException">UnexpectedValueException</abbr></span>
+                                                            
+                                                 <section class="phpdocumentor-description"></section>
+
+                                    </dd>
+                        </dl>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+    <span class="phpdocumentor-signature__response_type">null|object</span>
             &mdash;
             <section class="phpdocumentor-description"></section>
 
@@ -1645,7 +1727,7 @@ hit the database.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Query/PostsResultSet.php"><a href="files/src-query-postsresultset.html"><abbr title="src/Query/PostsResultSet.php">PostsResultSet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">227</span>
+    <span class="phpdocumentor-element-found-in__line">240</span>
 </aside>
 
         <p class="phpdocumentor-summary">Shuffles (and slices) the result set. This method will hit the database.</p>
@@ -1706,7 +1788,7 @@ hit the database.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Query/PostsResultSet.php"><a href="files/src-query-postsresultset.html"><abbr title="src/Query/PostsResultSet.php">PostsResultSet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">209</span>
+    <span class="phpdocumentor-element-found-in__line">222</span>
 </aside>
 
         <p class="phpdocumentor-summary">Returns a slice of the collection starting at the given index.</p>
@@ -1767,7 +1849,7 @@ hit the database.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Query/PostsResultSet.php"><a href="files/src-query-postsresultset.html"><abbr title="src/Query/PostsResultSet.php">PostsResultSet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">48</span>
+    <span class="phpdocumentor-element-found-in__line">50</span>
 </aside>
 
     
@@ -1819,7 +1901,7 @@ hit the database.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Query/PostsResultSet.php"><a href="files/src-query-postsresultset.html"><abbr title="src/Query/PostsResultSet.php">PostsResultSet.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">534</span>
+    <span class="phpdocumentor-element-found-in__line">573</span>
 </aside>
 
         <p class="phpdocumentor-summary">Get the post type mapping value. Defaults to &#039;post&#039; if mapping not found.</p>
