@@ -401,6 +401,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/NewsHour-WPCoreThemeComponents-Query-PostsResultSet.html#method___construct"
         },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Query\\PostsResultSet\u003A\u003A__get\u0028\u0029",
+            "name": "__get",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Query-PostsResultSet.html#method___get"
+        },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Query\\PostsResultSet\u003A\u003A__toString\u0028\u0029",
             "name": "__toString",
             "summary": "",
@@ -416,14 +421,24 @@ Search.appendIndex(
             "summary": "Returns\u0020the\u0020result\u0020set\u0020array\u0020based\u0020on\u0020the\u0020set\u0020query\u0020params.\u0020This\u0020method\nwill\u0020hit\u0020the\u0020database.",
             "url": "classes/NewsHour-WPCoreThemeComponents-Query-PostsResultSet.html#method_get"
         },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Query\\PostsResultSet\u003A\u003Acount\u0028\u0029",
+            "name": "count",
+            "summary": "The\u0020number\u0020of\u0020records\u0020that\u0020will\u0020be\u0020returned\u0020with\u0020the\u0020query\u0020parameters.",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Query-PostsResultSet.html#method_count"
+        },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Query\\PostsResultSet\u003A\u003Apk\u0028\u0029",
             "name": "pk",
             "summary": "Returns\u0020the\u0020first\u0020result\u0020by\u0020primary\u0020key\u0020\u0028post\u0020ID\u0029.\u0020This\u0020method\u0020will\nhit\u0020the\u0020database.",
             "url": "classes/NewsHour-WPCoreThemeComponents-Query-PostsResultSet.html#method_pk"
         },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Query\\PostsResultSet\u003A\u003Aexists\u0028\u0029",
+            "name": "exists",
+            "summary": "Check\u0020if\u0020a\u0020post\u0020exists.\u0020This\u0020method\u0020will\u0020hit\u0020the\u0020database\u0020by\u0020performing\u0020a\n\u0060SELECT\u0020COUNT\u0028\u002A\u0029...\u0060\u0020query",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Query-PostsResultSet.html#method_exists"
+        },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Query\\PostsResultSet\u003A\u003Aid\u0028\u0029",
             "name": "id",
-            "summary": "Alias\u0020for\u0020pk\u0028int\u0020\u0024pk\u0029,\u0020but\u0020also\u0020accepts\u0020an\u0020array\u0020of\u0020IDs.",
+            "summary": "Alias\u0020for\u0020pk\u0028int\u0020\u0024pk\u0029,\u0020but\u0020also\u0020accepts\u0020an\u0020array\u0020of\u0020IDs.\u0020Deprecated,\u0020use\npk\u0028\u0029\u0020or\u0020include\u0028\u0029.",
             "url": "classes/NewsHour-WPCoreThemeComponents-Query-PostsResultSet.html#method_id"
         },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Query\\PostsResultSet\u003A\u003Aall\u0028\u0029",
@@ -503,7 +518,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Query\\PostsResultSet\u003A\u003Ainclude\u0028\u0029",
             "name": "include",
-            "summary": "Fetch\u0020results\u0020by\u0020a\u0020list\u0020of\u0020post\u0020IDs.",
+            "summary": "Fetch\u0020results\u0020by\u0020a\u0020list\u0020of\u0020post\u0020IDs\u0020\u0028or\u0020parent\u0020post\u0020ID\u0029.",
             "url": "classes/NewsHour-WPCoreThemeComponents-Query-PostsResultSet.html#method_include"
         },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Query\\PostsResultSet\u003A\u003AignoreStickyPosts\u0028\u0029",
@@ -523,7 +538,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Query\\PostsResultSet\u003A\u003Anocache\u0028\u0029",
             "name": "nocache",
-            "summary": "Sets\u0020cache\u0020expires\u0020to\u0020indefinite.\u0020Same\u0020as\u0020cache\u00280\u0029.",
+            "summary": "Sets\u0020cache\u0020to\u0020never\u0020cache.\u0020Same\u0020as\u0020cache\u0028\u002D1\u0029.",
             "url": "classes/NewsHour-WPCoreThemeComponents-Query-PostsResultSet.html#method_nocache"
         },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Query\\PostsResultSet\u003A\u003Aorder\u0028\u0029",
@@ -566,6 +581,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/NewsHour-WPCoreThemeComponents-Query-PostsResultSet.html#property_data"
         },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Query\\PostsResultSet\u003A\u003A\u0024immutables",
+            "name": "immutables",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Query-PostsResultSet.html#property_immutables"
+        },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Query\\Queryable",
             "name": "Queryable",
             "summary": "Adds\u0020data\u0020fetching\u0020methods\u0020to\u0020Model\u0020classes.",
@@ -596,6 +616,11 @@ Search.appendIndex(
             "summary": "Creates\u0020a\u0020ResultSet\u0020instance.",
             "url": "classes/NewsHour-WPCoreThemeComponents-Query-ResultSet.html#method_factory"
         },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Query\\ResultSet\u003A\u003AaddToCollection\u0028\u0029",
+            "name": "addToCollection",
+            "summary": "Add\u0020the\u0020results\u0020directly\u0020to\u0020a\u0020collection.",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Query-ResultSet.html#method_addToCollection"
+        },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Query\\ResultSet\u003A\u003Acache\u0028\u0029",
             "name": "cache",
             "summary": "Sets\u0020the\u0020cache\u0020expires\u0020time\u0020in\u0020seconds.\u0020\u002D1\u0020is\u0020no\u0020cache,\u00200\u0020is\ncache\u0020forever.",
@@ -610,6 +635,11 @@ Search.appendIndex(
             "name": "pk",
             "summary": "Retrieve\u0020the\u0020first\u0020result\u0020by\u0020primary\u0020key.",
             "url": "classes/NewsHour-WPCoreThemeComponents-Query-ResultSet.html#method_pk"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Query\\ResultSet\u003A\u003Aexists\u0028\u0029",
+            "name": "exists",
+            "summary": "Returns\u0020true\u0020if\u0020record\u0020exists.",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Query-ResultSet.html#method_exists"
         },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Query\\ResultSet\u003A\u003Afilter\u0028\u0029",
             "name": "filter",
@@ -650,6 +680,11 @@ Search.appendIndex(
             "name": "include",
             "summary": "Includes\u0020records\u0020by\u0020ID.",
             "url": "classes/NewsHour-WPCoreThemeComponents-Query-ResultSet.html#method_include"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Query\\ResultSet\u003A\u003AignoreStickyPosts\u0028\u0029",
+            "name": "ignoreStickyPosts",
+            "summary": "Ignore\u0020any\u0020settings\u0020for\u0020\u0022sticky\u0020posts\u0022.",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Query-ResultSet.html#method_ignoreStickyPosts"
         },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Query\\ResultSet\u003A\u003Alatest\u0028\u0029",
             "name": "latest",
@@ -2041,21 +2076,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/NewsHour-WPCoreThemeComponents-Commands-ContainerCommandResolver.html#property_container"
         },                {
-            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Containers\\DependencyInjection\\ThemeExtension",
-            "name": "ThemeExtension",
-            "summary": "",
-            "url": "classes/NewsHour-WPCoreThemeComponents-Containers-DependencyInjection-ThemeExtension.html"
-        },                {
-            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Containers\\DependencyInjection\\ThemeExtension\u003A\u003AgetAlias\u0028\u0029",
-            "name": "getAlias",
-            "summary": "",
-            "url": "classes/NewsHour-WPCoreThemeComponents-Containers-DependencyInjection-ThemeExtension.html#method_getAlias"
-        },                {
-            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Containers\\DependencyInjection\\ThemeExtension\u003A\u003Aload\u0028\u0029",
-            "name": "load",
-            "summary": "",
-            "url": "classes/NewsHour-WPCoreThemeComponents-Containers-DependencyInjection-ThemeExtension.html#method_load"
-        },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Controllers\\ControllerResolver",
             "name": "ControllerResolver",
             "summary": "Our\u0020container\u0020controller\u0020resolver.\u0020This\u0020resolver\u0020is\u0020essentially\u0020the\u0020same\u0020resolver\u0020as\nthe\u0020one\u0020in\u0020Symony\u0027s\u0020Framework\u0020Bundle.\u0020The\u0020primary\u0020difference\u0020is\u0020that\u0020we\u0020can\u0020pass\u0020our\ncontainer\u0020in\u0020the\u0020constructor\u0020and\u0020instruct\u0020the\u0020resolver\u0020to\u0020check\u0020for\u0020instances\u0020of\u0020our\nparent\u0020Controller\u0020class.",
@@ -2071,6 +2091,171 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/NewsHour-WPCoreThemeComponents-Controllers-ControllerResolver.html#method_instantiateController"
         },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Commands\\Composer\\PostCreateProjectCommand",
+            "name": "PostCreateProjectCommand",
+            "summary": "Performs\u0020Composer\u0020\u0060post\u002Dcreate\u002Dproject\u002Dcmd\u0060\u0020tasks.",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Commands-Composer-PostCreateProjectCommand.html"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Commands\\Composer\\PostCreateProjectCommand\u003A\u003A__toString\u0028\u0029",
+            "name": "__toString",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Commands-Composer-PostCreateProjectCommand.html#method___toString"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Commands\\Composer\\PostCreateProjectCommand\u003A\u003Atasks\u0028\u0029",
+            "name": "tasks",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Commands-Composer-PostCreateProjectCommand.html#method_tasks"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\CoreThemeKernel",
+            "name": "CoreThemeKernel",
+            "summary": "Extends\u0020the\u0020Symfony\u0020Kernel\u0020for\u0020use\u0020with\u0020Wordpress\u0020and\u0020the\u0020Core\u0020Theme.",
+            "url": "classes/NewsHour-WPCoreThemeComponents-CoreThemeKernel.html"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\CoreThemeKernel\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "Constructor\u0020is\u0020private.\u0020Use\u0020create\u0028\u0029\u0020to\u0020build\u0020new\u0020kernel\u0020instances.",
+            "url": "classes/NewsHour-WPCoreThemeComponents-CoreThemeKernel.html#method___construct"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\CoreThemeKernel\u003A\u003Acreate\u0028\u0029",
+            "name": "create",
+            "summary": "Creates\u0020a\u0020new,\u0020booted\u0020CoreThemeKernel\u0020instance.",
+            "url": "classes/NewsHour-WPCoreThemeComponents-CoreThemeKernel.html#method_create"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\CoreThemeKernel\u003A\u003Abuild\u0028\u0029",
+            "name": "build",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-CoreThemeKernel.html#method_build"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\CoreThemeKernel\u003A\u003AgetContainerBuilder\u0028\u0029",
+            "name": "getContainerBuilder",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-CoreThemeKernel.html#method_getContainerBuilder"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\CoreThemeKernel\u003A\u003AregisterBundles\u0028\u0029",
+            "name": "registerBundles",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-CoreThemeKernel.html#method_registerBundles"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\CoreThemeKernel\u003A\u003AregisterContainerConfiguration\u0028\u0029",
+            "name": "registerContainerConfiguration",
+            "summary": "Container\u0020configurations\u0020are\u0020set\u0020in\u0020src\/Resources\/config\/services.php\nand\u0020loaded\u0020here.",
+            "url": "classes/NewsHour-WPCoreThemeComponents-CoreThemeKernel.html#method_registerContainerConfiguration"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\CoreThemeKernel\u003A\u003Ahandle\u0028\u0029",
+            "name": "handle",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-CoreThemeKernel.html#method_handle"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\CoreThemeKernel\u003A\u003AgetEventDispatcher\u0028\u0029",
+            "name": "getEventDispatcher",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-CoreThemeKernel.html#method_getEventDispatcher"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\CoreThemeKernel\u003A\u003AgetBundlesPath\u0028\u0029",
+            "name": "getBundlesPath",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-CoreThemeKernel.html#method_getBundlesPath"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\CoreThemeKernel\u003A\u003AgetProjectDir\u0028\u0029",
+            "name": "getProjectDir",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-CoreThemeKernel.html#method_getProjectDir"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\CoreThemeKernel\u003A\u003AgetConfigDir\u0028\u0029",
+            "name": "getConfigDir",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-CoreThemeKernel.html#method_getConfigDir"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\CoreThemeKernel\u003A\u003AgetCharset\u0028\u0029",
+            "name": "getCharset",
+            "summary": "Gets\u0020the\u0020charset\u0020of\u0020the\u0020application.",
+            "url": "classes/NewsHour-WPCoreThemeComponents-CoreThemeKernel.html#method_getCharset"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\CoreThemeKernel\u003A\u003AgetLocale\u0028\u0029",
+            "name": "getLocale",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-CoreThemeKernel.html#method_getLocale"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\CoreThemeKernel\u003A\u003Aimport\u0028\u0029",
+            "name": "import",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-CoreThemeKernel.html#method_import"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\DependencyInjection\\ThemeExtension",
+            "name": "ThemeExtension",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-DependencyInjection-ThemeExtension.html"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\DependencyInjection\\ThemeExtension\u003A\u003AgetAlias\u0028\u0029",
+            "name": "getAlias",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-DependencyInjection-ThemeExtension.html#method_getAlias"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\DependencyInjection\\ThemeExtension\u003A\u003Aload\u0028\u0029",
+            "name": "load",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-DependencyInjection-ThemeExtension.html#method_load"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Events\\Listeners\\ExceptionListener",
+            "name": "ExceptionListener",
+            "summary": "Listener\u0020for\u0020exceptions.\u0020If\u0020Wordpress\u0020is\u0020available,\u0020the\u0020WP\u0020function\u0020\u0060wp_die\u0060\u0020will\nbe\u0020used\u0020to\u0020create\u0020the\u0020response\u0020body.",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Events-Listeners-ExceptionListener.html"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Events\\Listeners\\ExceptionListener\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Events-Listeners-ExceptionListener.html#method___construct"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Events\\Listeners\\ExceptionListener\u003A\u003AonKernelException\u0028\u0029",
+            "name": "onKernelException",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Events-Listeners-ExceptionListener.html#method_onKernelException"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Events\\Listeners\\ExceptionListener\u003A\u003A\u0024logger",
+            "name": "logger",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Events-Listeners-ExceptionListener.html#property_logger"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Factories\\FileLoaderFactory",
+            "name": "FileLoaderFactory",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Factories-FileLoaderFactory.html"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Factories\\FileLoaderFactory\u003A\u003Acreate\u0028\u0029",
+            "name": "create",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Factories-FileLoaderFactory.html#method_create"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\KernelUtilities",
+            "name": "KernelUtilities",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-KernelUtilities.html"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\KernelUtilities\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-KernelUtilities.html#method___construct"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\KernelUtilities\u003A\u003Acreate\u0028\u0029",
+            "name": "create",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-KernelUtilities.html#method_create"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\KernelUtilities\u003A\u003AexitOnError\u0028\u0029",
+            "name": "exitOnError",
+            "summary": "Exits\u0020the\u0020program\u0020on\u0020error.\u0020If\u0020the\u0020context\u0020is\u0020HTTP\u0020or\u0020WP\u0020CLI,\u0020the\u0020method\u0020will\u0020exit\u0020using\u0020wp_die\u0028\u0029.",
+            "url": "classes/NewsHour-WPCoreThemeComponents-KernelUtilities.html#method_exitOnError"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\KernelUtilities\u003A\u003A\u0024kernel",
+            "name": "kernel",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-KernelUtilities.html#property_kernel"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\KernelUtilities\u003A\u003A\u0024request",
+            "name": "request",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-KernelUtilities.html#property_request"
+        },                {
             "fqsen": "\\",
             "name": "\\",
             "summary": "",
@@ -2085,6 +2270,11 @@ Search.appendIndex(
             "name": "Commands",
             "summary": "",
             "url": "namespaces/newshour-wpcorethemecomponents-commands.html"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Commands\\Composer",
+            "name": "Composer",
+            "summary": "",
+            "url": "namespaces/newshour-wpcorethemecomponents-commands-composer.html"
         },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Components",
             "name": "Components",
@@ -2106,11 +2296,6 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/newshour-wpcorethemecomponents-containers.html"
         },                {
-            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Containers\\DependencyInjection",
-            "name": "DependencyInjection",
-            "summary": "",
-            "url": "namespaces/newshour-wpcorethemecomponents-containers-dependencyinjection.html"
-        },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Contexts",
             "name": "Contexts",
             "summary": "",
@@ -2120,6 +2305,36 @@ Search.appendIndex(
             "name": "Controllers",
             "summary": "",
             "url": "namespaces/newshour-wpcorethemecomponents-controllers.html"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents",
+            "name": "WPCoreThemeComponents",
+            "summary": "",
+            "url": "namespaces/newshour-wpcorethemecomponents.html"
+        },                {
+            "fqsen": "\\NewsHour",
+            "name": "NewsHour",
+            "summary": "",
+            "url": "namespaces/newshour.html"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\DependencyInjection",
+            "name": "DependencyInjection",
+            "summary": "",
+            "url": "namespaces/newshour-wpcorethemecomponents-dependencyinjection.html"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Events\\Listeners",
+            "name": "Listeners",
+            "summary": "",
+            "url": "namespaces/newshour-wpcorethemecomponents-events-listeners.html"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Events",
+            "name": "Events",
+            "summary": "",
+            "url": "namespaces/newshour-wpcorethemecomponents-events.html"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Factories",
+            "name": "Factories",
+            "summary": "",
+            "url": "namespaces/newshour-wpcorethemecomponents-factories.html"
         },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Forms",
             "name": "Forms",
@@ -2151,14 +2366,14 @@ Search.appendIndex(
             "summary": "",
             "url": "namespaces/newshour-wpcorethemecomponents-query.html"
         },                {
-            "fqsen": "\\NewsHour\\WPCoreThemeComponents",
-            "name": "WPCoreThemeComponents",
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Resources\\config",
+            "name": "config",
             "summary": "",
-            "url": "namespaces/newshour-wpcorethemecomponents.html"
+            "url": "namespaces/newshour-wpcorethemecomponents-resources-config.html"
         },                {
-            "fqsen": "\\NewsHour",
-            "name": "NewsHour",
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Resources",
+            "name": "Resources",
             "summary": "",
-            "url": "namespaces/newshour.html"
+            "url": "namespaces/newshour-wpcorethemecomponents-resources.html"
         }            ]
 );

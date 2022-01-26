@@ -75,49 +75,31 @@
                     <ul class="phpdocumentor-breadcrumbs">
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/newshour.html">NewsHour</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/newshour-wpcorethemecomponents.html">WPCoreThemeComponents</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/newshour-wpcorethemecomponents-controllers.html">Controllers</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/newshour-wpcorethemecomponents-events.html">Events</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/newshour-wpcorethemecomponents-events-listeners.html">Listeners</a></li>
     </ul>
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    ControllerResolver
+    ExceptionListener
 
-        <span class="phpdocumentor-element__extends">
-        extends <abbr title="\Symfony\Component\HttpKernel\Controller\ContainerControllerResolver">ContainerControllerResolver</abbr>
-    </span>
     
     
     
     </h2>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Controllers/ControllerResolver.php"><a href="files/src-controllers-controllerresolver.html"><abbr title="src/Controllers/ControllerResolver.php">ControllerResolver.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Events/Listeners/ExceptionListener.php"><a href="files/src-events-listeners-exceptionlistener.html"><abbr title="src/Events/Listeners/ExceptionListener.php">ExceptionListener.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">22</span>
+    <span class="phpdocumentor-element-found-in__line">18</span>
 </aside>
 
-            <p class="phpdocumentor-summary">Our container controller resolver. This resolver is essentially the same resolver as
-the one in Symony&#039;s Framework Bundle. The primary difference is that we can pass our
-container in the constructor and instruct the resolver to check for instances of our
-parent Controller class.</p>
+            <p class="phpdocumentor-summary">Listener for exceptions. If Wordpress is available, the WP function `wp_die` will
+be used to create the response body.</p>
 
     <section class="phpdocumentor-description"></section>
 
 
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">final</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"></section>
-
-                                    </dd>
-                        </dl>
 
 
 
@@ -130,17 +112,24 @@ parent Controller class.</p>
 </h3>
 
 <dl class="phpdocumentor-table-of-contents">
-                    <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/NewsHour-WPCoreThemeComponents-Controllers-ControllerResolver.html#method___construct">__construct()</a>
+                <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Events-Listeners-ExceptionListener.html#property_logger">$logger</a>
+    <span>
+                &nbsp;: <abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr>            </span>
+</dt>
+<dd></dd>
+
+                <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Events-Listeners-ExceptionListener.html#method___construct">__construct()</a>
     <span>
                         &nbsp;: mixed    </span>
 </dt>
 <dd></dd>
 
-            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/NewsHour-WPCoreThemeComponents-Controllers-ControllerResolver.html#method_instantiateController">instantiateController()</a>
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Events-Listeners-ExceptionListener.html#method_onKernelException">onKernelException()</a>
     <span>
-                        &nbsp;: object    </span>
+                        &nbsp;: void    </span>
 </dt>
 <dd></dd>
 
@@ -151,11 +140,47 @@ parent Controller class.</p>
         
 
         
+    <section class="phpdocumentor-properties">
+        <h3 class="phpdocumentor-elements__header" id="properties">
+            Properties
+            <a href="classes/NewsHour-WPCoreThemeComponents-Events-Listeners-ExceptionListener.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+        </h3>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_logger">
+        $logger
+        <a href="classes/NewsHour-WPCoreThemeComponents-Events-Listeners-ExceptionListener.html#property_logger" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Events/Listeners/ExceptionListener.php"><a href="files/src-events-listeners-exceptionlistener.html"><abbr title="src/Events/Listeners/ExceptionListener.php">ExceptionListener.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">20</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type"><abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr></span>
+    <span class="phpdocumentor-signature__name">$logger</span>
+    </code>
+
+    
+    
+
+</article>
+            </section>
 
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/NewsHour-WPCoreThemeComponents-Controllers-ControllerResolver.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/NewsHour-WPCoreThemeComponents-Events-Listeners-ExceptionListener.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
                     <article
         class="phpdocumentor-element
@@ -165,35 +190,27 @@ parent Controller class.</p>
 >
     <h4 class="phpdocumentor-element__name" id="method___construct">
         __construct()
-        <a href="classes/NewsHour-WPCoreThemeComponents-Controllers-ControllerResolver.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/NewsHour-WPCoreThemeComponents-Events-Listeners-ExceptionListener.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Controllers/ControllerResolver.php"><a href="files/src-controllers-controllerresolver.html"><abbr title="src/Controllers/ControllerResolver.php">ControllerResolver.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Events/Listeners/ExceptionListener.php"><a href="files/src-events-listeners-exceptionlistener.html"><abbr title="src/Events/Listeners/ExceptionListener.php">ExceptionListener.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">28</span>
+    <span class="phpdocumentor-element-found-in__line">25</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\DependencyInjection\ContainerInterface">ContainerInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$container</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$logger</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$logger</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
         <section class="phpdocumentor-description"></section>
 
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$container</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\DependencyInjection\ContainerInterface">ContainerInterface</abbr></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$logger</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr>|null</span>
-                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr></span>
+                            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                     <section class="phpdocumentor-description"></section>
 
@@ -212,31 +229,31 @@ parent Controller class.</p>
                     <article
         class="phpdocumentor-element
             -method
-            -protected
+            -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_instantiateController">
-        instantiateController()
-        <a href="classes/NewsHour-WPCoreThemeComponents-Controllers-ControllerResolver.html#method_instantiateController" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_onKernelException">
+        onKernelException()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Events-Listeners-ExceptionListener.html#method_onKernelException" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Controllers/ControllerResolver.php"><a href="files/src-controllers-controllerresolver.html"><abbr title="src/Controllers/ControllerResolver.php">ControllerResolver.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Events/Listeners/ExceptionListener.php"><a href="files/src-events-listeners-exceptionlistener.html"><abbr title="src/Events/Listeners/ExceptionListener.php">ExceptionListener.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">37</span>
+    <span class="phpdocumentor-element-found-in__line">34</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-                <span class="phpdocumentor-signature__name">instantiateController</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$class</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">object</span></code>
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">onKernelException</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\HttpKernel\Event\ExceptionEvent">ExceptionEvent</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$event</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
         <section class="phpdocumentor-description"></section>
 
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$class</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                <span class="phpdocumentor-signature__argument__name">$event</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\HttpKernel\Event\ExceptionEvent">ExceptionEvent</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                     <section class="phpdocumentor-description"></section>
@@ -247,7 +264,7 @@ parent Controller class.</p>
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">object</span>
+    <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
             <section class="phpdocumentor-description"></section>
 
@@ -269,7 +286,7 @@ parent Controller class.</p>
 </section>
             </div>
         </div>
-        <a href="classes/NewsHour-WPCoreThemeComponents-Controllers-ControllerResolver.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/NewsHour-WPCoreThemeComponents-Events-Listeners-ExceptionListener.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 

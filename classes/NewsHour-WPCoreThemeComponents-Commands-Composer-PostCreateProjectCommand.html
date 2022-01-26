@@ -75,53 +75,48 @@
                     <ul class="phpdocumentor-breadcrumbs">
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/newshour.html">NewsHour</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/newshour-wpcorethemecomponents.html">WPCoreThemeComponents</a></li>
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/newshour-wpcorethemecomponents-controllers.html">Controllers</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/newshour-wpcorethemecomponents-commands.html">Commands</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/newshour-wpcorethemecomponents-commands-composer.html">Composer</a></li>
     </ul>
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    ControllerResolver
+    PostCreateProjectCommand
 
-        <span class="phpdocumentor-element__extends">
-        extends <abbr title="\Symfony\Component\HttpKernel\Controller\ContainerControllerResolver">ContainerControllerResolver</abbr>
-    </span>
     
     
+            <span class="phpdocumentor-element__implements">
+            implements
+                            <a href="classes/NewsHour-WPCoreThemeComponents-Commands-Command.html"><abbr title="\NewsHour\WPCoreThemeComponents\Commands\Command">Command</abbr></a>                    </span>
     
     </h2>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Controllers/ControllerResolver.php"><a href="files/src-controllers-controllerresolver.html"><abbr title="src/Controllers/ControllerResolver.php">ControllerResolver.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Commands/Composer/PostCreateProjectCommand.php"><a href="files/src-commands-composer-postcreateprojectcommand.html"><abbr title="src/Commands/Composer/PostCreateProjectCommand.php">PostCreateProjectCommand.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">22</span>
+    <span class="phpdocumentor-element-found-in__line">16</span>
 </aside>
 
-            <p class="phpdocumentor-summary">Our container controller resolver. This resolver is essentially the same resolver as
-the one in Symony&#039;s Framework Bundle. The primary difference is that we can pass our
-container in the constructor and instruct the resolver to check for instances of our
-parent Controller class.</p>
+            <p class="phpdocumentor-summary">Performs Composer `post-create-project-cmd` tasks.</p>
 
     <section class="phpdocumentor-description"></section>
 
 
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">final</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"></section>
-
-                                    </dd>
-                        </dl>
 
 
 
 
+<h3 id="interfaces_class_traits">
+    Interfaces, Classes and Traits
+    <a href="#interfaces_class_traits" class="headerlink"><i class="fas fa-link"></i></a>
+</h3>
+
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/NewsHour-WPCoreThemeComponents-Commands-Command.html"><abbr title="\NewsHour\WPCoreThemeComponents\Commands\Command">Command</abbr></a></dt>
+        <dd>Interface for building WP CLI commands.</dd>
+    
+    
+    </dl>
 
 
 <h3 id="toc">
@@ -131,16 +126,16 @@ parent Controller class.</p>
 
 <dl class="phpdocumentor-table-of-contents">
                     <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/NewsHour-WPCoreThemeComponents-Controllers-ControllerResolver.html#method___construct">__construct()</a>
+    <a href="classes/NewsHour-WPCoreThemeComponents-Commands-Composer-PostCreateProjectCommand.html#method___toString">__toString()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                        &nbsp;: string    </span>
 </dt>
 <dd></dd>
 
-            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/NewsHour-WPCoreThemeComponents-Controllers-ControllerResolver.html#method_instantiateController">instantiateController()</a>
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Commands-Composer-PostCreateProjectCommand.html#method_tasks">tasks()</a>
     <span>
-                        &nbsp;: object    </span>
+                        &nbsp;: void    </span>
 </dt>
 <dd></dd>
 
@@ -155,7 +150,7 @@ parent Controller class.</p>
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/NewsHour-WPCoreThemeComponents-Controllers-ControllerResolver.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/NewsHour-WPCoreThemeComponents-Commands-Composer-PostCreateProjectCommand.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
                     <article
         class="phpdocumentor-element
@@ -163,47 +158,28 @@ parent Controller class.</p>
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method___construct">
-        __construct()
-        <a href="classes/NewsHour-WPCoreThemeComponents-Controllers-ControllerResolver.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method___toString">
+        __toString()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Commands-Composer-PostCreateProjectCommand.html#method___toString" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Controllers/ControllerResolver.php"><a href="files/src-controllers-controllerresolver.html"><abbr title="src/Controllers/ControllerResolver.php">ControllerResolver.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Commands/Composer/PostCreateProjectCommand.php"><a href="files/src-commands-composer-postcreateprojectcommand.html"><abbr title="src/Commands/Composer/PostCreateProjectCommand.php">PostCreateProjectCommand.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">28</span>
+    <span class="phpdocumentor-element-found-in__line">21</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\DependencyInjection\ContainerInterface">ContainerInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$container</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$logger</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                <span class="phpdocumentor-signature__name">__toString</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
         <section class="phpdocumentor-description"></section>
 
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$container</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\DependencyInjection\ContainerInterface">ContainerInterface</abbr></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$logger</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr>|null</span>
-                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
-            </dd>
-            </dl>
-
+    
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
+    <span class="phpdocumentor-signature__response_type">string</span>
             &mdash;
             <section class="phpdocumentor-description"></section>
 
@@ -212,31 +188,31 @@ parent Controller class.</p>
                     <article
         class="phpdocumentor-element
             -method
-            -protected
-                                                        "
+            -public
+                                    -static                    "
 >
-    <h4 class="phpdocumentor-element__name" id="method_instantiateController">
-        instantiateController()
-        <a href="classes/NewsHour-WPCoreThemeComponents-Controllers-ControllerResolver.html#method_instantiateController" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_tasks">
+        tasks()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Commands-Composer-PostCreateProjectCommand.html#method_tasks" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/Controllers/ControllerResolver.php"><a href="files/src-controllers-controllerresolver.html"><abbr title="src/Controllers/ControllerResolver.php">ControllerResolver.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Commands/Composer/PostCreateProjectCommand.php"><a href="files/src-commands-composer-postcreateprojectcommand.html"><abbr title="src/Commands/Composer/PostCreateProjectCommand.php">PostCreateProjectCommand.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">37</span>
+    <span class="phpdocumentor-element-found-in__line">30</span>
 </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-                <span class="phpdocumentor-signature__name">instantiateController</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$class</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">object</span></code>
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">tasks</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Composer\Script\Event">Event</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$event</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
         <section class="phpdocumentor-description"></section>
 
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$class</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                <span class="phpdocumentor-signature__argument__name">$event</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Composer\Script\Event">Event</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                     <section class="phpdocumentor-description"></section>
@@ -247,7 +223,7 @@ parent Controller class.</p>
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">object</span>
+    <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
             <section class="phpdocumentor-description"></section>
 
@@ -269,7 +245,7 @@ parent Controller class.</p>
 </section>
             </div>
         </div>
-        <a href="classes/NewsHour-WPCoreThemeComponents-Controllers-ControllerResolver.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/NewsHour-WPCoreThemeComponents-Commands-Composer-PostCreateProjectCommand.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 
