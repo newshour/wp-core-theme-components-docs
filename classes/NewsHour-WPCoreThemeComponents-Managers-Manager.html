@@ -86,14 +86,14 @@
     
             <span class="phpdocumentor-element__implements">
             implements
-                            <a href="classes/NewsHour-WPCoreThemeComponents-Managers-WordpressManager.html"><abbr title="\NewsHour\WPCoreThemeComponents\Managers\WordpressManager">WordpressManager</abbr></a>                    </span>
+                            <a href="classes/NewsHour-WPCoreThemeComponents-Managers-WordpressManager.html"><abbr title="\NewsHour\WPCoreThemeComponents\Managers\WordpressManager">WordpressManager</abbr></a>,                             <abbr title="\Psr\Log\LoggerAwareInterface">LoggerAwareInterface</abbr>                    </span>
     
     </h2>
 
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Managers/Manager.php"><a href="files/src-managers-manager.html"><abbr title="src/Managers/Manager.php">Manager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">16</span>
+    <span class="phpdocumentor-element-found-in__line">18</span>
 </aside>
 
             <p class="phpdocumentor-summary">Provides common methods used by managers.</p>
@@ -129,6 +129,8 @@
         <dd>Managers encapsulate Wordpress filters/actions and perform any other needed
 intialization tasks. This allows for storage of all fitler/action callbacks
 into organized units.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -interface"><abbr title="\Psr\Log\LoggerAwareInterface">LoggerAwareInterface</abbr></dt>
+        <dd></dd>
     
     
     </dl>
@@ -140,7 +142,14 @@ into organized units.</dd>
 </h3>
 
 <dl class="phpdocumentor-table-of-contents">
-                <dt class="phpdocumentor-table-of-contents__entry -property -private">
+                <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Managers-Manager.html#property_logger">$logger</a>
+    <span>
+                &nbsp;: <abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr>|null            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a href="classes/NewsHour-WPCoreThemeComponents-Managers-Manager.html#property_request">$request</a>
     <span>
                 &nbsp;: <abbr title="\Symfony\Component\HttpFoundation\Request">Request</abbr>            </span>
@@ -175,6 +184,13 @@ into organized units.</dd>
 </dt>
 <dd>Run the manager.</dd>
 
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Managers-Manager.html#method_setLogger">setLogger()</a>
+    <span>
+                        &nbsp;: void    </span>
+</dt>
+<dd></dd>
+
         </dl>
 
 
@@ -191,6 +207,36 @@ into organized units.</dd>
         class="
             phpdocumentor-element
             -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_logger">
+        $logger
+        <a href="classes/NewsHour-WPCoreThemeComponents-Managers-Manager.html#property_logger" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Managers/Manager.php"><a href="files/src-managers-manager.html"><abbr title="src/Managers/Manager.php">Manager.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">20</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type"><abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr>|null</span>
+    <span class="phpdocumentor-signature__name">$logger</span>
+     = <span class="phpdocumentor-signature__default-value">null</span></code>
+
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
             -private
                                                         "
 >
@@ -203,7 +249,7 @@ into organized units.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Managers/Manager.php"><a href="files/src-managers-manager.html"><abbr title="src/Managers/Manager.php">Manager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">18</span>
+    <span class="phpdocumentor-element-found-in__line">21</span>
 </aside>
 
     
@@ -237,7 +283,7 @@ into organized units.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Managers/Manager.php"><a href="files/src-managers-manager.html"><abbr title="src/Managers/Manager.php">Manager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">23</span>
+    <span class="phpdocumentor-element-found-in__line">26</span>
 </aside>
 
     
@@ -281,7 +327,7 @@ into organized units.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Managers/Manager.php"><a href="files/src-managers-manager.html"><abbr title="src/Managers/Manager.php">Manager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">38</span>
+    <span class="phpdocumentor-element-found-in__line">41</span>
 </aside>
 
     
@@ -314,7 +360,7 @@ into organized units.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Managers/Manager.php"><a href="files/src-managers-manager.html"><abbr title="src/Managers/Manager.php">Manager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">46</span>
+    <span class="phpdocumentor-element-found-in__line">49</span>
 </aside>
 
     
@@ -347,7 +393,7 @@ into organized units.</dd>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Managers/Manager.php"><a href="files/src-managers-manager.html"><abbr title="src/Managers/Manager.php">Manager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">33</span>
+    <span class="phpdocumentor-element-found-in__line">36</span>
 </aside>
 
         <p class="phpdocumentor-summary">Run the manager.</p>
@@ -359,6 +405,50 @@ into organized units.</dd>
         <section class="phpdocumentor-description"></section>
 
     
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">void</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setLogger">
+        setLogger()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Managers-Manager.html#method_setLogger" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Managers/Manager.php"><a href="files/src-managers-manager.html"><abbr title="src/Managers/Manager.php">Manager.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">58</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setLogger</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$logger</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$logger</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>

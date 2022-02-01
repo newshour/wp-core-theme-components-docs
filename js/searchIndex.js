@@ -271,6 +271,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/NewsHour-WPCoreThemeComponents-Managers-Manager.html#method_getRequest"
         },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Managers\\Manager\u003A\u003AsetLogger\u0028\u0029",
+            "name": "setLogger",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Managers-Manager.html#method_setLogger"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Managers\\Manager\u003A\u003A\u0024logger",
+            "name": "logger",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Managers-Manager.html#property_logger"
+        },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Managers\\Manager\u003A\u003A\u0024request",
             "name": "request",
             "summary": "",
@@ -283,7 +293,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Managers\\ManagerService\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "",
+            "summary": "The\u0020constructor\u0020is\u0020private,\u0020use\u0020instance\u0028\u0029\u0020instead.",
             "url": "classes/NewsHour-WPCoreThemeComponents-Managers-ManagerService.html#method___construct"
         },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Managers\\ManagerService\u003A\u003A\u0024instance",
@@ -293,7 +303,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Managers\\ManagerService\u003A\u003Aadd\u0028\u0029",
             "name": "add",
-            "summary": "Add\u0020a\u0020WordpressManager\u0020to\u0020the\u0020pipeline.\u0020If\u0020the\u0020manager\u0020implements\u0020ContainerAwareInterface,\nthe\u0020container\u0020will\u0020also\u0020be\u0020set.",
+            "summary": "Add\u0020a\u0020WordpressManager\u0020to\u0020the\u0020pipeline.",
             "url": "classes/NewsHour-WPCoreThemeComponents-Managers-ManagerService.html#method_add"
         },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Managers\\ManagerService\u003A\u003AaddAll\u0028\u0029",
@@ -316,6 +326,16 @@ Search.appendIndex(
             "summary": "Run\u0020managers.",
             "url": "classes/NewsHour-WPCoreThemeComponents-Managers-ManagerService.html#method_run"
         },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Managers\\ManagerService\u003A\u003AlogError\u0028\u0029",
+            "name": "logError",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Managers-ManagerService.html#method_logError"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Managers\\ManagerService\u003A\u003AexitOnError\u0028\u0029",
+            "name": "exitOnError",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Managers-ManagerService.html#method_exitOnError"
+        },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Managers\\ManagerService\u003A\u003A\u0024managers",
             "name": "managers",
             "summary": "",
@@ -325,6 +345,11 @@ Search.appendIndex(
             "name": "request",
             "summary": "",
             "url": "classes/NewsHour-WPCoreThemeComponents-Managers-ManagerService.html#property_request"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Managers\\ManagerService\u003A\u003A\u0024container",
+            "name": "container",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Managers-ManagerService.html#property_container"
         },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Managers\\WordpressManager",
             "name": "WordpressManager",
@@ -775,6 +800,11 @@ Search.appendIndex(
             "name": "validateUrlExtension",
             "summary": "Validates\u0020that\u0020a\u0020URL\u0020string\u0020uses\u0020an\u0020allowed\u0020extension.",
             "url": "classes/NewsHour-WPCoreThemeComponents-Utilities.html#method_validateUrlExtension"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Utilities\u003A\u003AtriggerError\u0028\u0029",
+            "name": "triggerError",
+            "summary": "Shortcut\u0020to\u0020log\u0020an\u0020error\u0020and\u0020then\u0020display\u0020the\u0020error\u0020to\u0020the\u0020user\u0020\u0028Wordpress\u0020default\u0020behavior\u0029.",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Utilities.html#method_triggerError"
         },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Annotations\\HttpMethods",
             "name": "HttpMethods",
@@ -1956,11 +1986,6 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/NewsHour-WPCoreThemeComponents-Containers-ContainerFactory.html#method_get"
         },                {
-            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Containers\\ContainerFactory\u003A\u003AdumpAutoload\u0028\u0029",
-            "name": "dumpAutoload",
-            "summary": "Clears\u0020the\u0020cached\u0020container.",
-            "url": "classes/NewsHour-WPCoreThemeComponents-Containers-ContainerFactory.html#method_dumpAutoload"
-        },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Containers\\ContainerFactory\u003A\u003A\u0024instance",
             "name": "instance",
             "summary": "",
@@ -1996,6 +2021,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/NewsHour-WPCoreThemeComponents-Managers-Bootstrap.html#method___toString"
         },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Managers\\Bootstrap\u003A\u003AsetContainer\u0028\u0029",
+            "name": "setContainer",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Managers-Bootstrap.html#method_setContainer"
+        },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Managers\\Bootstrap\u003A\u003Arun\u0028\u0029",
             "name": "run",
             "summary": "Run\u0020the\u0020manager.",
@@ -2005,6 +2035,11 @@ Search.appendIndex(
             "name": "extendGeneralSettingsPage",
             "summary": "Extends\u0020the\u0020\u0022general\u0022\u0020settings\u0020page.",
             "url": "classes/NewsHour-WPCoreThemeComponents-Managers-Bootstrap.html#method_extendGeneralSettingsPage"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Managers\\Bootstrap\u003A\u003AregisterAdminScreens\u0028\u0029",
+            "name": "registerAdminScreens",
+            "summary": "Register\u0020\u0022screen\u0022\u0020classes\u0020by\u0020using\u0020the\u0020\u0060core_theme_screen_classmap\u0060\u0020filter.",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Managers-Bootstrap.html#method_registerAdminScreens"
         },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Managers\\Bootstrap\u003A\u003AaddTwigFunctions\u0028\u0029",
             "name": "addTwigFunctions",
@@ -2256,10 +2291,155 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/NewsHour-WPCoreThemeComponents-KernelUtilities.html#property_request"
         },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Admin\\Screens\\AbstractScreen",
+            "name": "AbstractScreen",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Admin-Screens-AbstractScreen.html"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Admin\\Screens\\AbstractScreen\u003A\u003Amain\u0028\u0029",
+            "name": "main",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Admin-Screens-AbstractScreen.html#method_main"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Admin\\Screens\\AbstractScreen\u003A\u003AsetWordpressScreen\u0028\u0029",
+            "name": "setWordpressScreen",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Admin-Screens-AbstractScreen.html#method_setWordpressScreen"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Admin\\Screens\\AbstractScreen\u003A\u003AgetWordpressScreen\u0028\u0029",
+            "name": "getWordpressScreen",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Admin-Screens-AbstractScreen.html#method_getWordpressScreen"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Admin\\Screens\\AbstractScreen\u003A\u003AgetContainer\u0028\u0029",
+            "name": "getContainer",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Admin-Screens-AbstractScreen.html#method_getContainer"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Admin\\Screens\\AbstractScreen\u003A\u003AsetContainer\u0028\u0029",
+            "name": "setContainer",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Admin-Screens-AbstractScreen.html#method_setContainer"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Admin\\Screens\\AbstractScreen\u003A\u003AgetLogger\u0028\u0029",
+            "name": "getLogger",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Admin-Screens-AbstractScreen.html#method_getLogger"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Admin\\Screens\\AbstractScreen\u003A\u003AsetLogger\u0028\u0029",
+            "name": "setLogger",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Admin-Screens-AbstractScreen.html#method_setLogger"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Admin\\Screens\\AbstractScreen\u003A\u003A\u0024wpScreen",
+            "name": "wpScreen",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Admin-Screens-AbstractScreen.html#property_wpScreen"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Admin\\Screens\\AbstractScreen\u003A\u003A\u0024container",
+            "name": "container",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Admin-Screens-AbstractScreen.html#property_container"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Admin\\Screens\\AbstractScreen\u003A\u003A\u0024logger",
+            "name": "logger",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Admin-Screens-AbstractScreen.html#property_logger"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Admin\\Screens\\ContainerScreenResolver",
+            "name": "ContainerScreenResolver",
+            "summary": "A\u0020resolver\u0020for\u0020Wordpress\u0020admin\u0020\u0022screens\u0022\u0020classes.\u0020These\u0020are\u0020classes\u0020that\u0020implement\nScreenInterface\u0020and\u0020can\u0020be\u0020used\u0020to\u0020extend\u0020the\u0020Wordpress\u0020admin.",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Admin-Screens-ContainerScreenResolver.html"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Admin\\Screens\\ContainerScreenResolver\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Admin-Screens-ContainerScreenResolver.html#method___construct"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Admin\\Screens\\ContainerScreenResolver\u003A\u003AgetScreen\u0028\u0029",
+            "name": "getScreen",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Admin-Screens-ContainerScreenResolver.html#method_getScreen"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Admin\\Screens\\ContainerScreenResolver\u003A\u003AinstantiateScreen\u0028\u0029",
+            "name": "instantiateScreen",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Admin-Screens-ContainerScreenResolver.html#method_instantiateScreen"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Admin\\Screens\\ContainerScreenResolver\u003A\u003A\u0024container",
+            "name": "container",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Admin-Screens-ContainerScreenResolver.html#property_container"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Admin\\Screens\\ScreenInterface",
+            "name": "ScreenInterface",
+            "summary": "Screen\u0020classes\u0020provided\u0020added\u0020functionality\u0020to\u0020Wordpress\u0020admin\u0020screens.\u0020Each\u0020class\u0020that\nimplements\u0020ScreenInterface\u0020maps\u0020to\u0020a\u0020WP_Screen\u0020identifier\u0020\u0028\u0060id\u0060\u0029.",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Admin-Screens-ScreenInterface.html"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Admin\\Screens\\ScreenInterface\u003A\u003Amain\u0028\u0029",
+            "name": "main",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Admin-Screens-ScreenInterface.html#method_main"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Admin\\Screens\\ScreenInterface\u003A\u003AsetWordpressScreen\u0028\u0029",
+            "name": "setWordpressScreen",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Admin-Screens-ScreenInterface.html#method_setWordpressScreen"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Admin\\Screens\\ScreenInterface\u003A\u003AgetWordpressScreen\u0028\u0029",
+            "name": "getWordpressScreen",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Admin-Screens-ScreenInterface.html#method_getWordpressScreen"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\DependencyInjection\\Compiler\\ManagerPass",
+            "name": "ManagerPass",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-DependencyInjection-Compiler-ManagerPass.html"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\DependencyInjection\\Compiler\\ManagerPass\u003A\u003Aprocess\u0028\u0029",
+            "name": "process",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-DependencyInjection-Compiler-ManagerPass.html#method_process"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\DependencyInjection\\Compiler\\WpCommandPass",
+            "name": "WpCommandPass",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-DependencyInjection-Compiler-WpCommandPass.html"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\DependencyInjection\\Compiler\\WpCommandPass\u003A\u003Aprocess\u0028\u0029",
+            "name": "process",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-DependencyInjection-Compiler-WpCommandPass.html#method_process"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\DependencyInjection\\Compiler\\WpScreenPass",
+            "name": "WpScreenPass",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-DependencyInjection-Compiler-WpScreenPass.html"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\DependencyInjection\\Compiler\\WpScreenPass\u003A\u003Aprocess\u0028\u0029",
+            "name": "process",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-DependencyInjection-Compiler-WpScreenPass.html#method_process"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\DependencyInjection\\Compiler\\WpScreenPass\u003A\u003AgetScreenId\u0028\u0029",
+            "name": "getScreenId",
+            "summary": "Determine\u0020the\u0020mapped\u0020screen\u0020ID.",
+            "url": "classes/NewsHour-WPCoreThemeComponents-DependencyInjection-Compiler-WpScreenPass.html#method_getScreenId"
+        },                {
             "fqsen": "\\",
             "name": "\\",
             "summary": "",
             "url": "namespaces/default.html"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Admin\\Screens",
+            "name": "Screens",
+            "summary": "",
+            "url": "namespaces/newshour-wpcorethemecomponents-admin-screens.html"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Admin",
+            "name": "Admin",
+            "summary": "",
+            "url": "namespaces/newshour-wpcorethemecomponents-admin.html"
         },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Annotations",
             "name": "Annotations",
@@ -2315,6 +2495,11 @@ Search.appendIndex(
             "name": "NewsHour",
             "summary": "",
             "url": "namespaces/newshour.html"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\DependencyInjection\\Compiler",
+            "name": "Compiler",
+            "summary": "",
+            "url": "namespaces/newshour-wpcorethemecomponents-dependencyinjection-compiler.html"
         },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\DependencyInjection",
             "name": "DependencyInjection",

@@ -87,13 +87,16 @@
     </span>
     
     
+            <span class="phpdocumentor-element__implements">
+            implements
+                            <abbr title="\Symfony\Component\DependencyInjection\ContainerAwareInterface">ContainerAwareInterface</abbr>                    </span>
     
     </h2>
 
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Managers/Bootstrap.php"><a href="files/src-managers-bootstrap.html"><abbr title="src/Managers/Bootstrap.php">Bootstrap.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">24</span>
+    <span class="phpdocumentor-element-found-in__line">29</span>
 </aside>
 
             <p class="phpdocumentor-summary">Wordpress Settings and Functionality Bootstrapper</p>
@@ -112,6 +115,17 @@ are also created to store organization-wide meta data values for social media.</
 
 
 
+<h3 id="interfaces_class_traits">
+    Interfaces, Classes and Traits
+    <a href="#interfaces_class_traits" class="headerlink"><i class="fas fa-link"></i></a>
+</h3>
+
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -interface"><abbr title="\Symfony\Component\DependencyInjection\ContainerAwareInterface">ContainerAwareInterface</abbr></dt>
+        <dd></dd>
+    
+    
+    </dl>
 
 
 <h3 id="toc">
@@ -127,7 +141,14 @@ are also created to store organization-wide meta data values for social media.</
 </dt>
 <dd></dd>
 
-                <dt class="phpdocumentor-table-of-contents__entry -property -private">
+                <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Managers-Manager.html#property_logger">$logger</a>
+    <span>
+                &nbsp;: <abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr>|null            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a href="classes/NewsHour-WPCoreThemeComponents-Managers-Manager.html#property_request">$request</a>
     <span>
                 &nbsp;: <abbr title="\Symfony\Component\HttpFoundation\Request">Request</abbr>            </span>
@@ -170,11 +191,32 @@ are also created to store organization-wide meta data values for social media.</
 <dd></dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Managers-Bootstrap.html#method_registerAdminScreens">registerAdminScreens()</a>
+    <span>
+                        &nbsp;: void    </span>
+</dt>
+<dd>Register &quot;screen&quot; classes by using the `core_theme_screen_classmap` filter.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/NewsHour-WPCoreThemeComponents-Managers-Bootstrap.html#method_run">run()</a>
     <span>
                         &nbsp;: void    </span>
 </dt>
 <dd>Run the manager.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Managers-Bootstrap.html#method_setContainer">setContainer()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/NewsHour-WPCoreThemeComponents-Managers-Manager.html#method_setLogger">setLogger()</a>
+    <span>
+                        &nbsp;: void    </span>
+</dt>
+<dd></dd>
 
         </dl>
 
@@ -195,7 +237,7 @@ are also created to store organization-wide meta data values for social media.</
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Managers/Bootstrap.php"><a href="files/src-managers-bootstrap.html"><abbr title="src/Managers/Bootstrap.php">Bootstrap.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">26</span>
+    <span class="phpdocumentor-element-found-in__line">31</span>
 </aside>
 
     
@@ -223,6 +265,36 @@ are also created to store organization-wide meta data values for social media.</
         class="
             phpdocumentor-element
             -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_logger">
+        $logger
+        <a href="classes/NewsHour-WPCoreThemeComponents-Managers-Manager.html#property_logger" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Managers/Manager.php"><a href="files/src-managers-manager.html"><abbr title="src/Managers/Manager.php">Manager.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">20</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type"><abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr>|null</span>
+    <span class="phpdocumentor-signature__name">$logger</span>
+     = <span class="phpdocumentor-signature__default-value">null</span></code>
+
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
             -private
                                                         "
 >
@@ -235,7 +307,7 @@ are also created to store organization-wide meta data values for social media.</
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Managers/Manager.php"><a href="files/src-managers-manager.html"><abbr title="src/Managers/Manager.php">Manager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">18</span>
+    <span class="phpdocumentor-element-found-in__line">21</span>
 </aside>
 
     
@@ -269,7 +341,7 @@ are also created to store organization-wide meta data values for social media.</
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Managers/Manager.php"><a href="files/src-managers-manager.html"><abbr title="src/Managers/Manager.php">Manager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">23</span>
+    <span class="phpdocumentor-element-found-in__line">26</span>
 </aside>
 
     
@@ -313,7 +385,7 @@ are also created to store organization-wide meta data values for social media.</
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Managers/Bootstrap.php"><a href="files/src-managers-bootstrap.html"><abbr title="src/Managers/Bootstrap.php">Bootstrap.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">31</span>
+    <span class="phpdocumentor-element-found-in__line">36</span>
 </aside>
 
     
@@ -346,7 +418,7 @@ are also created to store organization-wide meta data values for social media.</
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Managers/Bootstrap.php"><a href="files/src-managers-bootstrap.html"><abbr title="src/Managers/Bootstrap.php">Bootstrap.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">372</span>
+    <span class="phpdocumentor-element-found-in__line">414</span>
 </aside>
 
         <p class="phpdocumentor-summary">Adds common helper functions for access in Twig templates.</p>
@@ -380,7 +452,7 @@ are also created to store organization-wide meta data values for social media.</
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Managers/Bootstrap.php"><a href="files/src-managers-bootstrap.html"><abbr title="src/Managers/Bootstrap.php">Bootstrap.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">50</span>
+    <span class="phpdocumentor-element-found-in__line">64</span>
 </aside>
 
         <p class="phpdocumentor-summary">Extends the &quot;general&quot; settings page.</p>
@@ -414,7 +486,7 @@ are also created to store organization-wide meta data values for social media.</
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Managers/Manager.php"><a href="files/src-managers-manager.html"><abbr title="src/Managers/Manager.php">Manager.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">46</span>
+    <span class="phpdocumentor-element-found-in__line">49</span>
 </aside>
 
     
@@ -440,6 +512,40 @@ are also created to store organization-wide meta data values for social media.</
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_registerAdminScreens">
+        registerAdminScreens()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Managers-Bootstrap.html#method_registerAdminScreens" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Managers/Bootstrap.php"><a href="files/src-managers-bootstrap.html"><abbr title="src/Managers/Bootstrap.php">Bootstrap.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">386</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Register &quot;screen&quot; classes by using the `core_theme_screen_classmap` filter.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">registerAdminScreens</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">void</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_run">
         run()
         <a href="classes/NewsHour-WPCoreThemeComponents-Managers-Bootstrap.html#method_run" class="headerlink"><i class="fas fa-link"></i></a>
@@ -447,7 +553,7 @@ are also created to store organization-wide meta data values for social media.</
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/Managers/Bootstrap.php"><a href="files/src-managers-bootstrap.html"><abbr title="src/Managers/Bootstrap.php">Bootstrap.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">39</span>
+    <span class="phpdocumentor-element-found-in__line">49</span>
 </aside>
 
         <p class="phpdocumentor-summary">Run the manager.</p>
@@ -459,6 +565,92 @@ are also created to store organization-wide meta data values for social media.</
         <section class="phpdocumentor-description"></section>
 
     
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">void</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setContainer">
+        setContainer()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Managers-Bootstrap.html#method_setContainer" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Managers/Bootstrap.php"><a href="files/src-managers-bootstrap.html"><abbr title="src/Managers/Bootstrap.php">Bootstrap.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">41</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setContainer</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\DependencyInjection\ContainerInterface">ContainerInterface</abbr>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$container</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$container</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Symfony\Component\DependencyInjection\ContainerInterface">ContainerInterface</abbr>|null</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setLogger">
+        setLogger()
+        <a href="classes/NewsHour-WPCoreThemeComponents-Managers-Manager.html#method_setLogger" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Managers/Manager.php"><a href="files/src-managers-manager.html"><abbr title="src/Managers/Manager.php">Manager.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">58</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setLogger</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$logger</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$logger</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\Psr\Log\LoggerInterface">LoggerInterface</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
