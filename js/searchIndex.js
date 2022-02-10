@@ -2426,6 +2426,71 @@ Search.appendIndex(
             "summary": "Determine\u0020the\u0020mapped\u0020screen\u0020ID.",
             "url": "classes/NewsHour-WPCoreThemeComponents-DependencyInjection-Compiler-WpScreenPass.html#method_getScreenId"
         },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Components\\AdminNotification",
+            "name": "AdminNotification",
+            "summary": "Display\u0020Wordpress\u0020admin\u0020notification\u0020banners.\u0020This\u0020class\u0020consists\u0020of\u0020mostly\u0020static\u0020helper\u0020methods\nto\u0020display\u0020and\u0020store\u0020notification\u0020data\u0020as\u0020COOKIE\u0020values\u0020\u0028since\u0020Wordpress\u0020does\u0020a\u0020number\u0020of\u0020internal\nredirects\u0029.",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Components-AdminNotification.html"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Components\\AdminNotification\u003A\u003Amessage\u0028\u0029",
+            "name": "message",
+            "summary": "Display\u0020an\u0020admin\u0020notification.\u0020If\u0020the\u0020notification\u0020needs\u0020to\u0020survive\u0020a\u0020Wordpress\u0020redirect,\u0020set\u0020the\n\u0024flash\u0020value\u0020to\u0020\u0022true\u0022.\u0020Available\u0020types\u003A",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Components-AdminNotification.html#method_message"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Components\\AdminNotification\u003A\u003Aerror\u0028\u0029",
+            "name": "error",
+            "summary": "A\u0020shortcut\u0020for\u0020AdminNotification\u003A\u003AMESSAGE_TYPE_ERROR\u0020notification\u0020types.",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Components-AdminNotification.html#method_error"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Components\\AdminNotification\u003A\u003Ainfo\u0028\u0029",
+            "name": "info",
+            "summary": "A\u0020shortcut\u0020for\u0020AdminNotification\u003A\u003AMESSAGE_TYPE_INFO\u0020notification\u0020types.",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Components-AdminNotification.html#method_info"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Components\\AdminNotification\u003A\u003Awarning\u0028\u0029",
+            "name": "warning",
+            "summary": "A\u0020shortcut\u0020for\u0020AdminNotification\u003A\u003AMESSAGE_TYPE_WARNING\u0020notification\u0020types.",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Components-AdminNotification.html#method_warning"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Components\\AdminNotification\u003A\u003AflashMessage\u0028\u0029",
+            "name": "flashMessage",
+            "summary": "Display\u0020the\u0020stored\u0020cookie\u0020message.",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Components-AdminNotification.html#method_flashMessage"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Components\\AdminNotification\u003A\u003ACOOKIE_KEY",
+            "name": "COOKIE_KEY",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Components-AdminNotification.html#constant_COOKIE_KEY"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Components\\AdminNotification\u003A\u003AMESSAGE_TYPE_ERROR",
+            "name": "MESSAGE_TYPE_ERROR",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Components-AdminNotification.html#constant_MESSAGE_TYPE_ERROR"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Components\\AdminNotification\u003A\u003AMESSAGE_TYPE_INFO",
+            "name": "MESSAGE_TYPE_INFO",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Components-AdminNotification.html#constant_MESSAGE_TYPE_INFO"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Components\\AdminNotification\u003A\u003AMESSAGE_TYPE_WARNING",
+            "name": "MESSAGE_TYPE_WARNING",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Components-AdminNotification.html#constant_MESSAGE_TYPE_WARNING"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\TimberLoader",
+            "name": "TimberLoader",
+            "summary": "Factory\u0020class\u0020for\u0020loading\u0020the\u0020Timber\u0020library.\u0020The\u0020factory\u0020avoids\u0020calling\n\u0060Timber\u003A\u003Abackwards_compatibility\u0028\u0029\u0060\u0020which\u0020has\u0020some\u0020incompatibilities\u0020with\nSymfony\u0027s\u0020autoloader.",
+            "url": "classes/NewsHour-WPCoreThemeComponents-TimberLoader.html"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\TimberLoader\u003A\u003Aload\u0028\u0029",
+            "name": "load",
+            "summary": "Loads\u0020the\u0020Timber\u0020environment.\u0020Initialization\u0020values\u0020can\u0020be\u0020optionally\npassed\u0020as\u0020a\u0020dictionary\u003A\u0020\u0027locations\u0027,\u0020\u0027dirname\u0027,\u0020\u0027cache\u0027,\u0020\u0027autoescape\u0027",
+            "url": "classes/NewsHour-WPCoreThemeComponents-TimberLoader.html#method_load"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\TimberLoader\u003A\u003A\u0024instance",
+            "name": "instance",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-TimberLoader.html#property_instance"
+        },                {
             "fqsen": "\\",
             "name": "\\",
             "summary": "",
