@@ -848,8 +848,18 @@ Search.appendIndex(
         },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Annotations\\LoginRequired\u003A\u003AgetCapability\u0028\u0029",
             "name": "getCapability",
-            "summary": "",
+            "summary": "Returns\u0020the\u0020WP\u0020capability\u0020string.",
             "url": "classes/NewsHour-WPCoreThemeComponents-Annotations-LoginRequired.html#method_getCapability"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Annotations\\LoginRequired\u003A\u003AgetNext\u0028\u0029",
+            "name": "getNext",
+            "summary": "Returns\u0020a\u0020redirect\u0020location.",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Annotations-LoginRequired.html#method_getNext"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Annotations\\LoginRequired\u003A\u003AgetStatusCode\u0028\u0029",
+            "name": "getStatusCode",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Annotations-LoginRequired.html#method_getStatusCode"
         },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Annotations\\LoginRequired\u003A\u003AvalidateUser\u0028\u0029",
             "name": "validateUser",
@@ -860,6 +870,16 @@ Search.appendIndex(
             "name": "capability",
             "summary": "",
             "url": "classes/NewsHour-WPCoreThemeComponents-Annotations-LoginRequired.html#property_capability"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Annotations\\LoginRequired\u003A\u003A\u0024next",
+            "name": "next",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Annotations-LoginRequired.html#property_next"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Annotations\\LoginRequired\u003A\u003A\u0024statusCode",
+            "name": "statusCode",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Annotations-LoginRequired.html#property_statusCode"
         },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Components\\Component",
             "name": "Component",
@@ -2491,6 +2511,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/NewsHour-WPCoreThemeComponents-TimberLoader.html#property_instance"
         },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Console\\CoreThemeApplication",
+            "name": "CoreThemeApplication",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Console-CoreThemeApplication.html"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Console\\CoreThemeApplication\u003A\u003AgetDefaultInputDefinition\u0028\u0029",
+            "name": "getDefaultInputDefinition",
+            "summary": "",
+            "url": "classes/NewsHour-WPCoreThemeComponents-Console-CoreThemeApplication.html#method_getDefaultInputDefinition"
+        },                {
             "fqsen": "\\",
             "name": "\\",
             "summary": "",
@@ -2535,6 +2565,11 @@ Search.appendIndex(
             "name": "Schemas",
             "summary": "",
             "url": "namespaces/newshour-wpcorethemecomponents-components-meta-schemas.html"
+        },                {
+            "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Console",
+            "name": "Console",
+            "summary": "",
+            "url": "namespaces/newshour-wpcorethemecomponents-console.html"
         },                {
             "fqsen": "\\NewsHour\\WPCoreThemeComponents\\Containers",
             "name": "Containers",
